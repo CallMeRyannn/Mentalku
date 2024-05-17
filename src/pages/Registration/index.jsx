@@ -1,4 +1,5 @@
 import "./style2.css";
+import { Link } from 'react-router-dom';
 
 const Registration = () => {
   return (
@@ -20,15 +21,15 @@ const Registration = () => {
             </div>
             <div className="alamat-email-parent">
               <div className="alamat-email1">Alamat Email</div>
-              <input className="bg3" type="text" />
+              <input className="bg3" type="email" />
             </div>
             <div className="password">
               <div className="kata-sandi1">Kata Sandi</div>
-              <input className="bg4" type="text" />
+              <input className="bg4" type="password" />
             </div>
             <div className="password1">
               <div className="konfirmasi-kata-sandi">Konfirmasi Kata Sandi</div>
-              <input className="bg5" type="text" />
+              <input className="bg5" type="password" />
             </div>
           </div>
         </div>
@@ -45,7 +46,9 @@ const Registration = () => {
               </div>
             </div>
           </button>
+          <Link to="/login">
           <div className="sudah-punya-akun">Sudah punya akun? Masuk</div>
+          </Link>
         </div>
       </form>
       <img className="bg-icon1" alt="" src="/img/bg1.png" />

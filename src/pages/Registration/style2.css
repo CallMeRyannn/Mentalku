@@ -40,6 +40,7 @@
   .bg2,
   .nama {
     position: relative;
+    font-size: 30px;
   }
   .nama {
     width: 54px;
@@ -84,6 +85,7 @@
   .bg3 {
     position: relative;
     z-index: 1;
+    font-size: 30px;
   }
   .alamat-email1 {
     font-size: 16px;
@@ -129,6 +131,7 @@
   .bg4,
   .password {
     align-self: stretch;
+    font-size: 30px;
   }
   .bg4 {
     border: 1px solid #000;
@@ -166,6 +169,7 @@
     border-radius: 12px;
     box-sizing: border-box;
     min-width: 250px;
+    font-size: 30px;
   }
   .input,
   .input-wrapper,
