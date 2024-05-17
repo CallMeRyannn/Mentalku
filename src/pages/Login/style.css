@@ -1,0 +1,325 @@
+.bg-icon,
+.shape {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+.bg-icon {
+  left: -1px;
+  object-fit: cover;
+}
+.shape {
+  left: 0;
+  background-color: rgba(158, 221, 255, 0.3);
+  z-index: 1;
+}
+.main {
+  height: 681px;
+  width: 702px;
+  position: relative;
+  min-width: 702px;
+  max-width: 100%;
+}
+.hai-selamat-datang,
+.masuk1 {
+  position: relative;
+  font-family: Poppins;
+  text-align: left;
+}
+.masuk1 {
+  margin: 0;
+  font-size: 52px;
+  letter-spacing: -2px;
+  line-height: 62px;
+  font-weight: 600;
+  color: #090914;
+}
+.hai-selamat-datang {
+  align-self: stretch;
+  font-size: 18px;
+  line-height: 30px;
+  color: #52525b;
+}
+.welcome {
+  width: 481px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 20px 0 0;
+  box-sizing: border-box;
+  gap: 15px;
+  max-width: 100%;
+}
+.alamat-email {
+  position: relative;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+  font-family: Poppins;
+  color: #090914;
+  text-align: left;
+  display: inline-block;
+  min-width: 109px;
+}
+.bg {
+  border: 1px solid #000;
+  outline: 0;
+  background-color: #fff;
+  align-self: stretch;
+  height: 60px;
+  position: relative;
+  border-radius: 12px;
+  box-sizing: border-box;
+  min-width: 250px;
+  font-size: 20px;
+}
+.input-fields {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 11px;
+}
+.kata-sandi {
+  position: relative;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+  font-family: Poppins;
+  color: #090914;
+  text-align: left;
+  display: inline-block;
+  min-width: 88px;
+}
+.bg1 {
+  border: 1px solid #000;
+  outline: 0;
+  background-color: #fff;
+  align-self: stretch;
+  height: 60px;
+  position: relative;
+  border-radius: 12px;
+  box-sizing: border-box;
+  min-width: 250px;
+  font-size: 20px;
+}
+.input-fields1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 11px;
+}
+.check-mark {
+  margin: 0;
+  height: 20px;
+  width: 19px;
+}
+.ingat-saya {
+  position: relative;
+  font-size: 14px;
+  line-height: 22px;
+  font-family: Poppins;
+  color: #18181b;
+  text-align: left;
+  display: inline-block;
+  min-width: 75px;
+}
+.remember-toggle {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 9px;
+}
+.lupa-password {
+  position: relative;
+  font-size: 14px;
+  line-height: 22px;
+  font-family: Poppins;
+  color: #6ec1e4;
+  text-align: left;
+  display: inline-block;
+  min-width: 114px;
+}
+.credentials,
+.details,
+.remember {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+}
+.remember {
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 11px 0 0;
+  gap: 20px;
+}
+.credentials,
+.details {
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 18px;
+}
+.details {
+  gap: 35px;
+  max-width: 100%;
+}
+.button-name {
+  width: 55px;
+  position: relative;
+  font-size: 16px;
+  letter-spacing: -0.2px;
+  line-height: 28px;
+  font-family: Poppins;
+  color: #fff;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 55px;
+}
+.iconoutlinearrow-right {
+  height: 18px;
+  width: 18px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.icon {
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.button-content,
+.buttonprimarywith-icon {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.button-content {
+  gap: 9px;
+}
+.buttonprimarywith-icon {
+  cursor: pointer;
+  border: 0;
+  padding: 13.5px 52.5px;
+  background-color: #6ec1e4;
+  border-radius: 9px;
+}
+.belum-punya-akun,
+.daftar {
+  position: relative;
+  font-size: 14px;
+  line-height: 22px;
+  font-family: Poppins;
+  color: #64748b;
+  text-align: left;
+}
+.daftar {
+  font-size: 13px;
+  line-height: 21px;
+  font-weight: 500;
+  color: #6ec1e4;
+  display: inline-block;
+  min-width: 41px;
+}
+.signup {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 3px;
+}
+.action,
+.login {
+  flex-direction: column;
+  align-items: flex-start;
+}
+.action {
+  display: flex;
+  justify-content: flex-start;
+  padding: 0 20px 0 0;
+  gap: 20px;
+}
+.login {
+  margin: 0;
+  align-self: stretch;
+  gap: 58px;
+}
+.content,
+.login,
+.masuk {
+  max-width: 100%;
+  display: flex;
+  justify-content: flex-start;
+}
+.content {
+  width: 526px;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 0 56px;
+  box-sizing: border-box;
+  min-width: 526px;
+  min-height: 601px;
+}
+.masuk {
+  width: 1369px;
+  background-color: #eef7ff;
+  overflow: hidden;
+  flex-direction: row;
+  align-items: flex-end;
+  gap: 65px;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1225px) {
+  .content,
+  .main {
+    flex: 1;
+  }
+  .masuk {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 750px) {
+  .main {
+    min-width: 100%;
+  }
+  .masuk1 {
+    font-size: 42px;
+    line-height: 50px;
+  }
+  .details {
+    gap: 17px;
+  }
+  .login {
+    gap: 29px;
+  }
+  .content {
+    padding-bottom: 36px;
+    box-sizing: border-box;
+    min-width: 100%;
+  }
+  .masuk {
+    gap: 32px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .masuk1 {
+    font-size: 31px;
+    line-height: 37px;
+  }
+  .remember {
+    flex-wrap: wrap;
+  }
+  .masuk {
+    gap: 16px;
+  }
+}
