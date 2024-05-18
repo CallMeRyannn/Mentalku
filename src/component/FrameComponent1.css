@@ -1,0 +1,86 @@
+.frame-child2 {
+  width: 1182px;
+  height: 409px;
+  position: relative;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25) inset;
+  background-color: #fff;
+  border-top: 5px solid #6ec1e4;
+  box-sizing: border-box;
+  display: none;
+  max-width: 100%;
+}
+.lengkapi-form-pendaftaran-di-a1 {
+  margin-bottom: 0;
+}
+.lengkapi-form-pendaftaran-di-a {
+  margin: 0;
+  font-family: inherit;
+  padding-left: 32px;
+}
+.masukkan-nama-pekerjaan {
+  margin: 0;
+  font-size: 20px;
+  color: #000;
+}
+.cek-kembali-data1 {
+  margin-bottom: 0;
+}
+.cek-kembali-data {
+  margin: 0;
+  font-family: inherit;
+  padding-left: 32px;
+}
+.cek-kembali-data2 {
+  margin: 0;
+  font-size: 20px;
+  color: #000;
+}
+.submit-data1 {
+  margin-bottom: 0;
+}
+.submit-data {
+  margin: 0;
+  font-family: inherit;
+  padding-left: 32px;
+}
+.setelah-data-yang {
+  margin: 0;
+  font-size: 20px;
+  color: #000;
+}
+.lengkapi-form-pendaftaran-container {
+  width: 1103px;
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 1;
+}
+.rectangle-parent2 {
+  align-self: stretch;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25) inset;
+  background-color: #fff;
+  border-top: 5px solid #6ec1e4;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 38px 32px 22px;
+  gap: 17.6px;
+  max-width: 100%;
+  text-align: left;
+  font-size: 24px;
+  color: #6ec1e4;
+  font-family: Poppins;
+}
+@media screen and (max-width: 450px) {
+  .lengkapi-form-pendaftaran-container {
+    font-size: 16px;
+  }
+  .rectangle-parent2 {
+    padding-top: 25px;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+  }
+}

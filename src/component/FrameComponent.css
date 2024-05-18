@@ -1,0 +1,199 @@
+.frame-child3 {
+  height: 491px;
+  width: 1369px;
+  position: relative;
+  background-color: #6ec1e4;
+  display: none;
+  max-width: 100%;
+}
+.img-20240506-233046-1-icon {
+  align-self: stretch;
+  width: 351px;
+  position: relative;
+  max-height: 100%;
+  object-fit: cover;
+  min-height: 149px;
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.contact {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  min-width: 112px;
+}
+.call-icon {
+  height: 32px;
+  width: 32px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.email-address {
+  flex: 1;
+  position: relative;
+}
+.detail-pair {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 20px;
+}
+.message-icon {
+  height: 32px;
+  width: 32px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.mentalkugmailcom {
+  position: relative;
+  white-space: nowrap;
+}
+.detail-pair1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 19px;
+}
+.detail-pair-parent,
+.frame-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.detail-pair-parent {
+  width: 303px;
+  gap: 20px;
+}
+.frame-container {
+  width: 527px;
+  max-width: 114%;
+  flex-shrink: 0;
+  text-align: center;
+  font-size: 18px;
+  font-family: Poppins;
+}
+.contact-parent,
+.img-20240506-233046-1-parent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.contact-parent {
+  width: 464px;
+  flex-direction: column;
+  gap: 30px;
+  min-width: 464px;
+  flex-shrink: 0;
+}
+.img-20240506-233046-1-parent {
+  width: 761px;
+  flex-direction: row;
+  gap: 94px;
+}
+.bottom-image-icon {
+  width: 1368.7px;
+  height: 4px;
+  position: relative;
+  object-fit: contain;
+  max-width: 129%;
+  flex-shrink: 0;
+}
+.footer-icon {
+  height: 30px;
+  width: 151px;
+  position: relative;
+}
+.footer-icon-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.copyright-2024-mentalkuid {
+  position: relative;
+}
+.frame-parent1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 30px;
+  font-size: 18px;
+  font-family: Poppins;
+}
+.contact-container,
+.frame-footer {
+  display: flex;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.contact-container {
+  width: 1064px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0;
+  gap: 60px;
+  z-index: 1;
+}
+.frame-footer {
+  align-self: stretch;
+  background-color: #6ec1e4;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 68px 20px 60px 45px;
+  text-align: left;
+  font-size: 28px;
+  color: #fff;
+  font-family: Manrope;
+}
+@media screen and (max-width: 1200px) {
+  .frame-footer {
+    padding-left: 22px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .contact-parent,
+  .img-20240506-233046-1-icon {
+    flex: 1;
+  }
+  .img-20240506-233046-1-parent {
+    flex-wrap: wrap;
+    gap: 47px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .contact-parent {
+    min-width: 100%;
+  }
+  .contact-container {
+    gap: 30px;
+  }
+  .frame-footer {
+    padding-top: 44px;
+    padding-bottom: 39px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .contact {
+    font-size: 22px;
+  }
+  .img-20240506-233046-1-parent {
+    gap: 23px;
+  }
+}
