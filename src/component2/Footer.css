@@ -1,0 +1,202 @@
+.footer-child {
+    height: 491px;
+    width: 1369px;
+    position: relative;
+    background-color: #6ec1e4;
+    display: none;
+    max-width: 100%;
+  }
+  .img-20240506-233046-1-icon {
+    align-self: stretch;
+    width: 351px;
+    position: relative;
+    max-height: 100%;
+    object-fit: cover;
+    min-height: 149px;
+    max-width: 100%;
+    flex-shrink: 0;
+  }
+  .contact {
+    margin: 0;
+    position: relative;
+    font-size: inherit;
+    font-weight: 700;
+    font-family: inherit;
+    display: inline-block;
+    min-width: 113px;
+  }
+  .call-icon {
+    height: 32px;
+    width: 32px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .details-contact {
+    flex: 1;
+    position: relative;
+  }
+  .communication-pair {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+  }
+  .message-icon {
+    height: 32px;
+    width: 32px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .mentalkugmailcom {
+    flex: 1;
+    position: relative;
+    white-space: nowrap;
+  }
+  .communication-pair1 {
+    width: 252px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+  }
+  .communication-options {
+    width: 303px;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .communication,
+  .communication-options,
+  .contacts,
+  .footer-content {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .communication {
+    width: 527px;
+    flex-direction: column;
+    max-width: 114%;
+    flex-shrink: 0;
+    text-align: center;
+    font-size: 18px;
+    font-family: Poppins;
+  }
+  .contacts,
+  .footer-content {
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .contacts {
+    width: 464px;
+    flex-direction: column;
+    gap: 30px;
+    min-width: 464px;
+    flex-shrink: 0;
+  }
+  .footer-content {
+    width: 761px;
+    flex-direction: row;
+    gap: 94px;
+  }
+  .footer-decoration-icon {
+    width: 1368.7px;
+    height: 4px;
+    position: relative;
+    object-fit: contain;
+    max-width: 129%;
+    flex-shrink: 0;
+  }
+  .vector-icon1 {
+    height: 30px;
+    width: 151px;
+    position: relative;
+  }
+  .vector-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .copyright-2024-mentalkuid {
+    position: relative;
+  }
+  .copyright {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 30px;
+    font-size: 18px;
+    font-family: Poppins;
+  }
+  .content-footer,
+  .footer {
+    display: flex;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .content-footer {
+    width: 1064px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0;
+    gap: 60px;
+    z-index: 1;
+  }
+  .footer {
+    align-self: stretch;
+    background-color: #6ec1e4;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 68px 20px 60px 45px;
+    text-align: left;
+    font-size: 28px;
+    color: #fff;
+    font-family: Manrope;
+  }
+  @media screen and (max-width: 1125px) {
+    .footer {
+      padding-left: 22px;
+      box-sizing: border-box;
+    }
+  }
+  @media screen and (max-width: 1025px) {
+    .contacts,
+    .img-20240506-233046-1-icon {
+      flex: 1;
+    }
+    .footer-content {
+      flex-wrap: wrap;
+      gap: 47px;
+    }
+  }
+  @media screen and (max-width: 750px) {
+    .contacts {
+      min-width: 100%;
+    }
+    .content-footer {
+      gap: 30px;
+    }
+    .footer {
+      padding-top: 44px;
+      padding-bottom: 39px;
+      box-sizing: border-box;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .contact {
+      font-size: 22px;
+    }
+    .footer-content {
+      gap: 23px;
+    }
+  }
+  

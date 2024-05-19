@@ -1,0 +1,337 @@
+.first-row {
+    width: 1243px;
+    display: grid;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 29px;
+    max-width: 100%;
+    grid-template-columns: repeat(3, minmax(299px, 1fr));
+  }
+  .frame-inner {
+    align-self: stretch;
+    flex: 1;
+    position: relative;
+    border-radius: 5px 50px 5px 50px;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+  }
+  .skizofrenia {
+    margin: 0;
+    position: relative;
+    font-size: inherit;
+    font-weight: 700;
+    font-family: inherit;
+    display: inline-block;
+    min-width: 129px;
+  }
+  .name-pair {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0 22px 0 20px;
+  }
+  .double-button-container-child {
+    height: 54px;
+    width: 369px;
+    position: relative;
+    border-radius: 15px;
+    background-color: #6ec1e4;
+    display: none;
+    max-width: 100%;
+  }
+  .baca-disini1 {
+    position: relative;
+    font-size: 16px;
+    display: inline-block;
+    font-family: "Times New Roman";
+    color: #000;
+    text-align: left;
+    min-width: 104px;
+    z-index: 1;
+  }
+  .double-button-container {
+    cursor: pointer;
+    border: 0;
+    padding: 18px 20px;
+    background-color: #6ec1e4;
+    align-self: stretch;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    box-sizing: border-box;
+    white-space: nowrap;
+    max-width: 100%;
+  }
+  .double-button-container:hover,
+  .frame-button:hover,
+  .single-button-container:hover {
+    background-color: #3b8fb0;
+  }
+  .inner-double-disorder {
+    flex: 1;
+    flex-direction: column;
+    gap: 17px;
+  }
+  .double-disorder,
+  .inner-double-disorder,
+  .rectangle-group {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .double-disorder {
+    align-self: stretch;
+    flex-direction: row;
+    padding: 0 16px 0 8px;
+    box-sizing: border-box;
+  }
+  .rectangle-group {
+    height: 387px;
+    width: 393px;
+    flex-direction: column;
+    gap: 7px;
+  }
+  .rectangle-icon {
+    align-self: stretch;
+    flex: 1;
+    position: relative;
+    border-radius: 5px 50px 5px 50px;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+  }
+  .gangguan-tidur {
+    margin: 0;
+    position: relative;
+    font-size: inherit;
+    font-weight: 700;
+    font-family: inherit;
+  }
+  .gangguan-tidur-wrapper {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0 29px 0 20px;
+  }
+  .rectangle-div {
+    height: 54px;
+    width: 369px;
+    position: relative;
+    border-radius: 15px;
+    background-color: #6ec1e4;
+    display: none;
+    max-width: 100%;
+  }
+  .baca-disini2 {
+    position: relative;
+    font-size: 16px;
+    display: inline-block;
+    font-family: "Times New Roman";
+    color: #000;
+    text-align: left;
+    min-width: 104px;
+    z-index: 1;
+  }
+  .frame-button {
+    cursor: pointer;
+    border: 0;
+    padding: 18px 20px;
+    background-color: #6ec1e4;
+    align-self: stretch;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    box-sizing: border-box;
+    white-space: nowrap;
+    max-width: 100%;
+  }
+  .frame-container {
+    flex: 1;
+    flex-direction: column;
+    gap: 17px;
+  }
+  .frame-container,
+  .frame-wrapper,
+  .rectangle-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .frame-wrapper {
+    width: 377px;
+    flex-direction: row;
+    padding: 0 4px;
+    box-sizing: border-box;
+  }
+  .rectangle-container {
+    height: 387px;
+    width: 393px;
+    flex-direction: column;
+    gap: 7px;
+    color: #000;
+  }
+  .frame-child1 {
+    height: 280px;
+    flex: 1;
+    position: relative;
+    border-radius: 5px 50px 5px 50px;
+    max-width: 100%;
+    overflow: hidden;
+    object-fit: cover;
+  }
+  .o-c-d-container-inner {
+    width: 395px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 1px;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .obsessive-compulsive-disorder {
+    margin: 0;
+    position: relative;
+    font-size: inherit;
+    font-weight: 700;
+    font-family: inherit;
+  }
+  .single-button-container-child {
+    height: 54px;
+    width: 369px;
+    position: relative;
+    border-radius: 15px;
+    background-color: #6ec1e4;
+    display: none;
+    max-width: 100%;
+  }
+  .baca-disini3 {
+    position: relative;
+    font-size: 16px;
+    display: inline-block;
+    font-family: "Times New Roman";
+    color: #000;
+    text-align: left;
+    min-width: 104px;
+    z-index: 1;
+  }
+  .single-button-container {
+    cursor: pointer;
+    border: 0;
+    padding: 18px 20px;
+    background-color: #6ec1e4;
+    flex: 1;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    box-sizing: border-box;
+    white-space: nowrap;
+    max-width: 100%;
+  }
+  .o-c-d-button-container,
+  .o-c-d-container,
+  .o-c-d-description {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .o-c-d-button-container {
+    width: 393px;
+    flex-direction: row;
+    padding: 0 12px;
+    box-sizing: border-box;
+  }
+  .o-c-d-container,
+  .o-c-d-description {
+    flex-direction: column;
+  }
+  .o-c-d-description {
+    align-self: stretch;
+    gap: 17px;
+  }
+  .o-c-d-container {
+    width: 418px;
+    gap: 7px;
+    min-width: 272px;
+  }
+  .incomplete-row,
+  .second-row {
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  .incomplete-row {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 25.5px;
+    max-width: 100%;
+  }
+  .second-row {
+    align-self: stretch;
+    padding: 0 0 0 12px;
+    box-sizing: border-box;
+  }
+  .grid,
+  .mental-disorders,
+  .second-row {
+    display: flex;
+    align-items: flex-start;
+    max-width: 100%;
+  }
+  .grid {
+    flex: 1;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 52px;
+  }
+  .mental-disorders {
+    width: 1343px;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 0 38px;
+    box-sizing: border-box;
+    text-align: left;
+    font-size: 25px;
+    color: rgba(0, 0, 0, 0.8);
+    font-family: "Times New Roman";
+  }
+  @media screen and (max-width: 1025px) {
+    .first-row {
+      justify-content: center;
+      grid-template-columns: repeat(2, minmax(299px, 519px));
+    }
+  }
+  @media screen and (max-width: 750px) {
+    .first-row {
+      grid-template-columns: minmax(299px, 1fr);
+    }
+    .grid {
+      gap: 26px;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .gangguan-tidur,
+    .obsessive-compulsive-disorder,
+    .skizofrenia {
+      font-size: 20px;
+    }
+  }
+  

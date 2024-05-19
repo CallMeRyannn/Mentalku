@@ -1,0 +1,92 @@
+.frame-item {
+    align-self: stretch;
+    flex: 1;
+    position: relative;
+    border-radius: 5px 50px 5px 50px;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+  }
+  .bipolar {
+    margin: 0;
+    position: relative;
+    font-size: inherit;
+    font-weight: 700;
+    font-family: inherit;
+    display: inline-block;
+    min-width: 87px;
+  }
+  .triple-disorder {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0 22px 0 20px;
+  }
+  .triple-button-container-child {
+    height: 54px;
+    width: 369px;
+    position: relative;
+    border-radius: 15px;
+    background-color: #6ec1e4;
+    display: none;
+    max-width: 100%;
+  }
+  .baca-disini {
+    position: relative;
+    font-size: 16px;
+    display: inline-block;
+    font-family: "Times New Roman";
+    color: #000;
+    text-align: left;
+    min-width: 104px;
+    z-index: 1;
+  }
+  .triple-button-container {
+    cursor: pointer;
+    border: 0;
+    padding: 18px 20px;
+    background-color: #6ec1e4;
+    flex: 1;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    box-sizing: border-box;
+    white-space: nowrap;
+    max-width: 100%;
+  }
+  .triple-button-container:hover {
+    background-color: #3b8fb0;
+  }
+  .rectangle-parent,
+  .triple-button {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .triple-button {
+    align-self: stretch;
+    flex-direction: row;
+    padding: 0 12px;
+    box-sizing: border-box;
+  }
+  .rectangle-parent {
+    height: 381px;
+    flex-direction: column;
+    gap: 9px;
+    text-align: left;
+    font-size: 25px;
+    color: rgba(0, 0, 0, 0.8);
+    font-family: "Times New Roman";
+  }
+  @media screen and (max-width: 450px) {
+    .bipolar {
+      font-size: 20px;
+    }
+  }
+  
