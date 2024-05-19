@@ -1,0 +1,62 @@
+.mask-group-icon {
+    height: 213px;
+    width: 198px;
+    position: relative;
+    object-fit: cover;
+  }
+  .bipolar {
+    width: 259px;
+    position: relative;
+    display: inline-block;
+  }
+  .see-more {
+    align-self: stretch;
+    position: relative;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: Poppins;
+    color: #0019f7;
+  }
+  .bipolar-info {
+    align-self: stretch;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .bipolar-container,
+  .bipolar-info,
+  .other-diseases-list {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .bipolar-container {
+    flex: 1;
+    flex-direction: column;
+    padding: 40px 0 0;
+    box-sizing: border-box;
+    min-width: 174px;
+  }
+  .other-diseases-list {
+    align-self: stretch;
+    flex-direction: row;
+    gap: 40px;
+    text-align: left;
+    font-size: 22px;
+    color: #000;
+    font-family: Manrope;
+  }
+  @media screen and (max-width: 750px) {
+    .mask-group-icon {
+      flex: 1;
+    }
+    .other-diseases-list {
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .bipolar {
+      font-size: 18px;
+    }
+  }
+  

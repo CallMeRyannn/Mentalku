@@ -1,0 +1,145 @@
+.anxiety1,
+.kecemasan-umum {
+  margin: 0;
+}
+.kecemasan-umum-anxiety-container {
+  margin: 0;
+  width: 653px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.gejala-kecemasan-umum,
+.kecemasan-umum-atau {
+  margin: 0;
+}
+.kecemasan-umum-atau-container {
+  margin: 0;
+  align-self: stretch;
+  height: 945px;
+  position: relative;
+  font-size: 30px;
+  font-weight: 400;
+  font-family: Poppins;
+  display: inline-block;
+}
+.kecemasan-umum-anxiety-parent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 50px;
+  min-width: 478px;
+  max-width: 100%;
+}
+.penyakit-lainnya {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+}
+.diseases-parent,
+.other-diseases-title {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 37px;
+}
+.diseases-parent {
+  gap: 50px;
+}
+.anxiety,
+.anxiety-content,
+.other-diseases {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.other-diseases {
+  width: 505px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 28px 0 0;
+  box-sizing: border-box;
+  min-width: 505px;
+  font-size: 28px;
+}
+.anxiety,
+.anxiety-content {
+  flex-direction: row;
+}
+.anxiety-content {
+  flex: 1;
+  justify-content: flex-start;
+  gap: 40px;
+}
+.anxiety {
+  width: 1351px;
+  justify-content: flex-end;
+  padding: 0 35px 119px;
+  box-sizing: border-box;
+  text-align: left;
+  font-size: 54px;
+  color: #000;
+  font-family: Manrope;
+}
+@media screen and (max-width: 1200px) {
+  .other-diseases {
+    flex: 1;
+  }
+  .anxiety-content {
+    flex-wrap: wrap;
+  }
+  .anxiety {
+    padding-bottom: 77px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .kecemasan-umum-anxiety-container {
+    font-size: 43px;
+  }
+  .kecemasan-umum-atau-container {
+    font-size: 24px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .kecemasan-umum-anxiety-parent {
+    gap: 25px;
+    min-width: 100%;
+  }
+  .other-diseases-title {
+    gap: 18px;
+  }
+  .diseases-parent {
+    gap: 25px;
+  }
+  .other-diseases {
+    min-width: 100%;
+  }
+  .anxiety-content {
+    gap: 20px;
+  }
+  .anxiety {
+    padding-bottom: 50px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .kecemasan-umum-anxiety-container {
+    font-size: 32px;
+  }
+  .kecemasan-umum-atau-container {
+    font-size: 18px;
+  }
+  .penyakit-lainnya {
+    font-size: 22px;
+  }
+}

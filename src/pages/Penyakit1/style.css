@@ -1,0 +1,247 @@
+.hero-child {
+    width: 1369px;
+    height: 412px;
+    position: relative;
+    background: linear-gradient(270deg, #6ec1e4);
+    display: none;
+    max-width: 100%;
+    z-index: 0;
+  }
+  .hero-item {
+    width: 1298px;
+    height: 268px;
+    position: absolute;
+    margin: 0 !important;
+    right: -540px;
+    bottom: 0;
+    object-fit: contain;
+    z-index: 1;
+  }
+  .g8-icon {
+    height: 50px;
+    width: 50px;
+    position: relative;
+  }
+  .mindfulcare {
+    height: 38px;
+    position: relative;
+    display: inline-block;
+  }
+  .g8-parent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 14px;
+  }
+  .home {
+    font-weight: 600;
+  }
+  .about,
+  .home,
+  .page,
+  .services {
+    height: 27px;
+    position: relative;
+    display: inline-block;
+  }
+  .home-parent {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 49.7px;
+    max-width: 100%;
+    font-size: 18px;
+    font-family: Poppins;
+  }
+  .see-detail {
+    height: 30px;
+    position: relative;
+    display: inline-block;
+  }
+  .button {
+    border-radius: 30px;
+    background-color: #ec744a;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 15px 49px;
+    white-space: nowrap;
+    font-size: 22px;
+  }
+  .frame-parent {
+    width: 1596px;
+    display: none;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 100%;
+    gap: 20px;
+    z-index: 2;
+    font-size: 28px;
+  }
+  .about-us,
+  .lorem-ipsum-dolor {
+    position: relative;
+    display: inline-block;
+  }
+  .about-us {
+    height: 93px;
+    font-weight: 800;
+  }
+  .lorem-ipsum-dolor {
+    align-self: stretch;
+    height: 54px;
+    font-size: 18px;
+    font-family: Poppins;
+  }
+  .about-us-parent {
+    width: 1173px;
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 50px;
+    max-width: 100%;
+    z-index: 3;
+  }
+  .content-background,
+  .hero-inner {
+    width: 5px;
+    position: relative;
+    background-color: #fff;
+  }
+  .hero-inner {
+    height: 328px;
+    display: none;
+    z-index: 4;
+  }
+  .content-background {
+    height: 151px;
+    z-index: 3;
+  }
+  .direktori-penyakit {
+    margin: 0;
+    position: relative;
+    font-size: inherit;
+    font-weight: 800;
+    font-family: inherit;
+    z-index: 2;
+  }
+  .direktori-penyakit-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 29px 0 0;
+    box-sizing: border-box;
+    max-width: calc(100% - 25px);
+  }
+  .content-background-parent {
+    width: 686px;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  .content-background-parent,
+  .frame-div,
+  .hero,
+  .hero-wrapper {
+    display: flex;
+    align-items: flex-start;
+    max-width: 100%;
+  }
+  .frame-div {
+    width: 934px;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .hero,
+  .hero-wrapper {
+    justify-content: flex-start;
+    box-sizing: border-box;
+  }
+  .hero {
+    flex: 1;
+    background: linear-gradient(270deg, #6ec1e4);
+    flex-direction: column;
+    padding: 19px 30px 66px;
+    position: relative;
+    gap: 82px;
+  }
+  .hero-wrapper {
+    align-self: stretch;
+    flex-direction: row;
+    padding: 0 0 12px;
+    text-align: left;
+    font-size: 68px;
+    color: #fff;
+    font-family: Manrope;
+  }
+  .image-43-icon {
+    height: 571px;
+    flex: 1;
+    position: relative;
+    border-radius: 20px;
+    max-width: 100%;
+    overflow: hidden;
+    object-fit: cover;
+  }
+  .image-43-wrapper {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding: 0 18px 0 21px;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .direktori-penyakit-1 {
+    width: 100%;
+    position: relative;
+    background-color: #eef7ff;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    gap: 14px;
+    line-height: normal;
+    letter-spacing: normal;
+  }
+  @media screen and (max-width: 1050px) {
+    .frame-parent {
+      flex-wrap: wrap;
+    }
+    .about-us,
+    .direktori-penyakit {
+      font-size: 54px;
+    }
+  }
+  @media screen and (max-width: 750px) {
+    .hero {
+      gap: 41px;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .mindfulcare {
+      font-size: 22px;
+    }
+    .home-parent {
+      flex-wrap: wrap;
+    }
+    .about-us,
+    .direktori-penyakit {
+      font-size: 41px;
+    }
+    .hero {
+      gap: 20px;
+      padding-top: 20px;
+      padding-bottom: 43px;
+      box-sizing: border-box;
+    }
+  }
+  

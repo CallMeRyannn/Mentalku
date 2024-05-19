@@ -1,0 +1,224 @@
+.depresi {
+    width: 653px;
+    display: inline-block;
+    flex-shrink: 0;
+    max-width: 100%;
+  }
+  .depresi,
+  .penyakit-lainnya {
+    margin: 0;
+    position: relative;
+    font-size: inherit;
+    font-weight: 700;
+    font-family: inherit;
+  }
+  .other-disease-label {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 28px 0 0;
+    font-size: 28px;
+  }
+  .disease-types {
+    width: 998px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    max-width: 100%;
+    gap: 20px;
+  }
+  .depresi-adalah-gangguan,
+  .gejala-depresi-dapat {
+    margin: 0;
+  }
+  .depresi-adalah-gangguan-container {
+    margin: 0;
+    align-self: stretch;
+    height: 990px;
+    position: relative;
+    font-size: inherit;
+    letter-spacing: -0.09px;
+    font-weight: 400;
+    font-family: inherit;
+    display: inline-block;
+  }
+  .depression-desc {
+    width: 736px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 21px 0 0;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .image-28-icon,
+  .mask-group-icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .image-28-icon {
+    z-index: 1;
+  }
+  .mask-group-icon1,
+  .masked-image {
+    align-self: stretch;
+    position: relative;
+  }
+  .masked-image {
+    height: 213px;
+  }
+  .mask-group-icon1 {
+    flex: 1;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+  }
+  .depression-images {
+    height: 476px;
+    width: 198px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 50px;
+  }
+  .bipolar {
+    width: 259px;
+    position: relative;
+    display: inline-block;
+  }
+  .see-more {
+    align-self: stretch;
+    position: relative;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: Poppins;
+    color: #0019f7;
+  }
+  .related-disease-names {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 20px;
+  }
+  .kecemasan-umum {
+    width: 259px;
+    position: relative;
+    display: inline-block;
+  }
+  .see-more1 {
+    align-self: stretch;
+    position: relative;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: Poppins;
+    color: #0019f7;
+  }
+  .related-disease-names1 {
+    align-self: stretch;
+    gap: 20px;
+  }
+  .related-disease-links,
+  .related-disease-names1,
+  .related-diseases {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .related-disease-links {
+    align-self: stretch;
+    gap: 186px;
+  }
+  .related-diseases {
+    width: 267px;
+    padding: 40px 0 0;
+    box-sizing: border-box;
+    font-size: 22px;
+    font-family: Manrope;
+  }
+  .depression-info {
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 40px;
+    font-size: 30px;
+    font-family: Poppins;
+  }
+  .depression-info,
+  .disease-content,
+  .disease-content-wrapper {
+    display: flex;
+    align-items: flex-start;
+    max-width: 100%;
+  }
+  .disease-content {
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 29px;
+  }
+  .disease-content-wrapper {
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 0 35px 148px;
+    box-sizing: border-box;
+    text-align: left;
+    font-size: 54px;
+    color: #000;
+    font-family: Manrope;
+  }
+  @media screen and (max-width: 1275px) {
+    .depression-info {
+      flex-wrap: wrap;
+    }
+    .disease-content-wrapper {
+      padding-bottom: 96px;
+      box-sizing: border-box;
+    }
+  }
+  @media screen and (max-width: 1100px) {
+    .disease-types {
+      flex-wrap: wrap;
+    }
+  }
+  @media screen and (max-width: 750px) {
+    .depresi {
+      font-size: 43px;
+    }
+    .depresi-adalah-gangguan-container {
+      font-size: 24px;
+    }
+    .depression-info {
+      gap: 20px;
+    }
+    .disease-content-wrapper {
+      padding-bottom: 62px;
+      box-sizing: border-box;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .depresi {
+      font-size: 32px;
+    }
+    .penyakit-lainnya {
+      font-size: 22px;
+    }
+    .bipolar,
+    .depresi-adalah-gangguan-container,
+    .kecemasan-umum {
+      font-size: 18px;
+    }
+    .related-disease-links {
+      gap: 93px;
+    }
+  }
+  

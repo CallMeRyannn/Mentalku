@@ -1,0 +1,202 @@
+.frame-child {
+    height: 491px;
+    width: 1369px;
+    position: relative;
+    background-color: #6ec1e4;
+    display: none;
+    max-width: 100%;
+  }
+  .img-20240506-233046-1-icon {
+    align-self: stretch;
+    width: 351px;
+    position: relative;
+    max-height: 100%;
+    object-fit: cover;
+    min-height: 149px;
+    max-width: 100%;
+    flex-shrink: 0;
+  }
+  .contact {
+    margin: 0;
+    font-size: inherit;
+    font-weight: 700;
+    font-family: inherit;
+    display: inline-block;
+    min-width: 112px;
+  }
+  .call-icon,
+  .contact,
+  .div {
+    position: relative;
+  }
+  .call-icon {
+    height: 32px;
+    width: 32px;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .div {
+    flex: 1;
+  }
+  .communication-items {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+  }
+  .message-icon {
+    height: 32px;
+    width: 32px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .mentalkugmailcom {
+    position: relative;
+    white-space: nowrap;
+  }
+  .communication-items1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 19px;
+  }
+  .communication-options,
+  .communication-options-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .communication-options {
+    width: 303px;
+    gap: 20px;
+  }
+  .communication-options-wrapper {
+    width: 527px;
+    max-width: 114%;
+    flex-shrink: 0;
+    text-align: center;
+    font-size: 18px;
+    font-family: Poppins;
+  }
+  .contact-details,
+  .contact-info {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .contact-info {
+    width: 464px;
+    flex-direction: column;
+    gap: 30px;
+    min-width: 464px;
+    flex-shrink: 0;
+  }
+  .contact-details {
+    width: 761px;
+    flex-direction: row;
+    gap: 94px;
+  }
+  .contact-content-child {
+    width: 1368.7px;
+    height: 4px;
+    position: relative;
+    object-fit: contain;
+    max-width: 129%;
+    flex-shrink: 0;
+  }
+  .vector-icon1 {
+    height: 30px;
+    width: 151px;
+    position: relative;
+  }
+  .footer-content {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .copyright-2024-mentalkuid {
+    position: relative;
+  }
+  .footer-content-parent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 30px;
+    font-size: 18px;
+    font-family: Poppins;
+  }
+  .contact-content,
+  .rectangle-parent {
+    display: flex;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .contact-content {
+    width: 1064px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0;
+    gap: 60px;
+    z-index: 1;
+  }
+  .rectangle-parent {
+    align-self: stretch;
+    background-color: #6ec1e4;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 68px 20px 60px 45px;
+    text-align: left;
+    font-size: 28px;
+    color: #fff;
+    font-family: Manrope;
+  }
+  @media screen and (max-width: 1200px) {
+    .rectangle-parent {
+      padding-left: 22px;
+      box-sizing: border-box;
+    }
+  }
+  @media screen and (max-width: 1050px) {
+    .contact-info,
+    .img-20240506-233046-1-icon {
+      flex: 1;
+    }
+    .contact-details {
+      flex-wrap: wrap;
+      gap: 47px;
+    }
+  }
+  @media screen and (max-width: 750px) {
+    .contact-info {
+      min-width: 100%;
+    }
+    .contact-content {
+      gap: 30px;
+    }
+    .rectangle-parent {
+      padding-top: 44px;
+      padding-bottom: 39px;
+      box-sizing: border-box;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .contact {
+      font-size: 22px;
+    }
+    .contact-details {
+      gap: 23px;
+    }
+  }
+  

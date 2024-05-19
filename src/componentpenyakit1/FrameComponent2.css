@@ -1,0 +1,149 @@
+.bipolar {
+    width: 653px;
+    display: inline-block;
+    flex-shrink: 0;
+    max-width: 100%;
+  }
+  .bipolar,
+  .penyakit-lainnya {
+    margin: 0;
+    position: relative;
+    font-size: inherit;
+    font-weight: 700;
+    font-family: inherit;
+  }
+  .penyakit-lainnya-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 28px 0 0;
+    font-size: 28px;
+  }
+  .bipolar-parent {
+    width: 998px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    max-width: 100%;
+    gap: 20px;
+  }
+  .bipolar-adalah-gangguan,
+  .gangguan-bipolar-terbagi {
+    margin: 0;
+  }
+  .bipolar-adalah-gangguan-container {
+    margin: 0;
+    align-self: stretch;
+    height: 1035px;
+    position: relative;
+    font-size: inherit;
+    font-weight: 400;
+    font-family: inherit;
+    display: inline-block;
+  }
+  .bipolar-adalah-gangguan-suasan-wrapper,
+  .disease-examples {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .bipolar-adalah-gangguan-suasan-wrapper {
+    flex: 1;
+    padding: 21px 0 0;
+    box-sizing: border-box;
+    min-width: 478px;
+  }
+  .disease-examples {
+    width: 505px;
+    gap: 50px;
+    min-width: 505px;
+    font-size: 22px;
+    font-family: Manrope;
+  }
+  .bipolar-description {
+    align-self: stretch;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 40px;
+    font-size: 30px;
+    font-family: Poppins;
+  }
+  .bipolar-description,
+  .directory-header,
+  .disease-directory {
+    display: flex;
+    align-items: flex-start;
+    max-width: 100%;
+  }
+  .directory-header {
+    flex: 1;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 29px;
+  }
+  .disease-directory {
+    width: 1351px;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 0 35px 106px;
+    box-sizing: border-box;
+    text-align: left;
+    font-size: 54px;
+    color: #000;
+    font-family: Manrope;
+  }
+  @media screen and (max-width: 1200px) {
+    .disease-examples {
+      flex: 1;
+    }
+    .bipolar-description {
+      flex-wrap: wrap;
+    }
+    .disease-directory {
+      padding-bottom: 69px;
+      box-sizing: border-box;
+    }
+  }
+  @media screen and (max-width: 1050px) {
+    .bipolar {
+      font-size: 43px;
+    }
+    .bipolar-parent {
+      flex-wrap: wrap;
+    }
+    .bipolar-adalah-gangguan-container {
+      font-size: 24px;
+    }
+  }
+  @media screen and (max-width: 750px) {
+    .bipolar-adalah-gangguan-suasan-wrapper {
+      min-width: 100%;
+    }
+    .disease-examples {
+      gap: 25px;
+      min-width: 100%;
+    }
+    .bipolar-description {
+      gap: 20px;
+    }
+    .disease-directory {
+      padding-bottom: 45px;
+      box-sizing: border-box;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .bipolar {
+      font-size: 32px;
+    }
+    .penyakit-lainnya {
+      font-size: 22px;
+    }
+    .bipolar-adalah-gangguan-container {
+      font-size: 18px;
+    }
+  }
+  

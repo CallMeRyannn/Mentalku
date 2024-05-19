@@ -1,0 +1,154 @@
+.img-20240506-233046-2-icon {
+    height: 94px;
+    width: 202px;
+    position: relative;
+    object-fit: cover;
+    z-index: 3;
+  }
+  .beranda,
+  .direktori {
+    position: relative;
+    display: inline-block;
+    min-width: 82px;
+    z-index: 3;
+  }
+  .direktori {
+    min-width: 85px;
+  }
+  .navigation-icon-instances {
+    width: 6.5px;
+    height: 5.4px;
+    position: relative;
+    z-index: 3;
+  }
+  .navigation-icons,
+  .navigation-items {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .navigation-icons {
+    flex-direction: column;
+    padding: 13px 0 0;
+  }
+  .navigation-items {
+    flex-direction: row;
+    gap: 2px;
+  }
+  .konsultasi-online {
+    position: relative;
+    white-space: nowrap;
+    z-index: 3;
+  }
+  .consultation {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 4.5px 0 0;
+  }
+  .informasi,
+  .vector-icon {
+    position: relative;
+    z-index: 3;
+  }
+  .informasi {
+    display: inline-block;
+    min-width: 93.5px;
+  }
+  .vector-icon {
+    width: 6.5px;
+    height: 5.4px;
+  }
+  .vector-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 13px 0 0;
+  }
+  .hero-title-container,
+  .navigation,
+  .navigation-items1 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .hero-title-container,
+  .navigation {
+    gap: 17.5px;
+    max-width: 100%;
+  }
+  .hero-title-container {
+    gap: 33px;
+  }
+  .hero-title-container-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding: 0 0 30px;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .see-detail1 {
+    position: relative;
+    font-size: 22px;
+    display: inline-block;
+    font-family: Manrope;
+    color: #000;
+    text-align: left;
+    min-width: 93px;
+    white-space: nowrap;
+  }
+  .button1,
+  .detail-button {
+    display: flex;
+    align-items: flex-start;
+  }
+  .button1 {
+    cursor: pointer;
+    border: 0;
+    padding: 15px 50px;
+    background-color: #fff;
+    border-radius: 30px;
+    flex-direction: row;
+    justify-content: flex-start;
+    z-index: 3;
+  }
+  .button1:hover {
+    background-color: #e6e6e6;
+  }
+  .detail-button {
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 14px;
+  }
+  .img-20240506-233046-2-parent {
+    width: 1236px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+    top: 0;
+    z-index: 99;
+    position: sticky;
+    gap: 20px;
+    max-width: 100%;
+    text-align: left;
+    font-size: 20px;
+    color: #fff;
+    font-family: Manrope;
+  }
+  @media screen and (max-width: 1050px) {
+    .navigation {
+      display: none;
+    }
+  }
+  @media screen and (max-width: 750px) {
+    .hero-title-container {
+      gap: 16px;
+    }
+  }
+  

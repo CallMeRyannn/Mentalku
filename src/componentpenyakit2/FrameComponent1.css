@@ -1,0 +1,161 @@
+.img-20240506-233046-2-icon {
+    height: 94px;
+    width: 202px;
+    position: relative;
+    object-fit: cover;
+    z-index: 3;
+  }
+  .beranda {
+    display: inline-block;
+    min-width: 82px;
+  }
+  .beranda,
+  .direktori,
+  .vector-icon {
+    position: relative;
+    z-index: 1;
+  }
+  .direktori {
+    display: inline-block;
+    min-width: 85px;
+  }
+  .vector-icon {
+    width: 6.5px;
+    height: 5.4px;
+  }
+  .nav-items,
+  .vector-wrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .vector-wrapper {
+    flex-direction: column;
+    padding: 13px 0 0;
+  }
+  .nav-items {
+    flex-direction: row;
+    gap: 2px;
+  }
+  .konsultasi-online {
+    position: relative;
+    white-space: nowrap;
+    z-index: 1;
+  }
+  .consultation {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 4.5px 0 0;
+  }
+  .informasi,
+  .vector-icon1 {
+    position: relative;
+    z-index: 1;
+  }
+  .informasi {
+    display: inline-block;
+    min-width: 93.5px;
+  }
+  .vector-icon1 {
+    width: 6.5px;
+    height: 5.4px;
+  }
+  .vector-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 13px 0 0;
+  }
+  .nav-items1,
+  .nav-links {
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  .nav-items1 {
+    display: flex;
+    align-items: flex-start;
+  }
+  .nav-links {
+    gap: 17.5px;
+  }
+  .hero-content,
+  .hero-nav,
+  .nav-links {
+    display: flex;
+    align-items: flex-start;
+    max-width: 100%;
+  }
+  .hero-nav {
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 33px;
+  }
+  .hero-content {
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 30px;
+    box-sizing: border-box;
+  }
+  .see-detail1 {
+    position: relative;
+    font-size: 22px;
+    display: inline-block;
+    font-family: Manrope;
+    color: #000;
+    text-align: left;
+    min-width: 93px;
+    white-space: nowrap;
+  }
+  .button1,
+  .details-button {
+    display: flex;
+    align-items: flex-start;
+  }
+  .button1 {
+    cursor: pointer;
+    border: 0;
+    padding: 15px 50px;
+    background-color: #fff;
+    border-radius: 30px;
+    flex-direction: row;
+    justify-content: flex-start;
+    z-index: 3;
+  }
+  .button1:hover {
+    background-color: #e6e6e6;
+  }
+  .details-button {
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 14px;
+  }
+  .hero-image {
+    width: 1236px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+    top: 0;
+    z-index: 99;
+    position: sticky;
+    gap: 20px;
+    max-width: 100%;
+    text-align: left;
+    font-size: 20px;
+    color: #fff;
+    font-family: Manrope;
+  }
+  @media screen and (max-width: 1050px) {
+    .nav-links {
+      display: none;
+    }
+  }
+  @media screen and (max-width: 750px) {
+    .hero-nav {
+      gap: 16px;
+    }
+  }
+  

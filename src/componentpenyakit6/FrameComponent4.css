@@ -1,0 +1,275 @@
+.penyakit-lainnya1 {
+    margin: 0;
+    width: 508px;
+    position: relative;
+    font-size: inherit;
+    font-weight: 700;
+    font-family: inherit;
+    display: inline-block;
+    flex-shrink: 0;
+    max-width: 100%;
+  }
+  .more-diseases-title {
+    width: 954px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0 20px;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .mask-group-icon1 {
+    width: 288.4px;
+    height: 335.3px;
+    position: relative;
+    object-fit: contain;
+  }
+  .depresi {
+    margin: 0;
+    flex: 1;
+    position: relative;
+    font-size: inherit;
+    font-weight: 700;
+    font-family: inherit;
+    display: inline-block;
+    max-width: 100%;
+  }
+  .depresi-skizof {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 0 0 29px;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .see-more1 {
+    flex: 1;
+    position: relative;
+    font-weight: 600;
+  }
+  .disease-icons,
+  .disease-links {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .disease-links {
+    align-self: stretch;
+    flex-direction: row;
+    padding: 0 27px 0 29px;
+    font-size: 18px;
+    color: #0019f7;
+    font-family: Poppins;
+  }
+  .disease-icons {
+    flex: 1;
+    flex-direction: column;
+    gap: 38.3px;
+    min-width: 237px;
+    flex-shrink: 0;
+    max-width: 100%;
+  }
+  .mask-group-icon2 {
+    width: 288.4px;
+    height: 335.3px;
+    position: relative;
+    object-fit: contain;
+  }
+  .skizofrenia {
+    margin: 0;
+    flex: 1;
+    position: relative;
+    font-size: inherit;
+    font-weight: 700;
+    font-family: inherit;
+    display: inline-block;
+    max-width: 100%;
+    z-index: 1;
+  }
+  .skizofrenia-wrapper {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 0 0 9.8px;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .see-more2 {
+    flex: 1;
+    position: relative;
+    font-weight: 600;
+    flex-shrink: 0;
+  }
+  .disease-icons1,
+  .see-more-wrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .see-more-wrapper {
+    width: 327.6px;
+    flex-direction: row;
+    padding: 0 10px 0 9.8px;
+    font-size: 18px;
+    color: #0019f7;
+    font-family: Poppins;
+  }
+  .disease-icons1 {
+    flex: 0.9724;
+    flex-direction: column;
+    padding: 0 9.8px 0 0;
+    gap: 38.3px;
+    min-width: 231px;
+    flex-shrink: 0;
+    margin-left: -35.8px;
+  }
+  .mask-group-icon3 {
+    height: 335.3px;
+    flex: 1;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    object-fit: cover;
+  }
+  .sleep-disorder-mask {
+    width: 307.2px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 9px 0 9.4px;
+    box-sizing: border-box;
+  }
+  .gangguan-tidur {
+    margin: 0;
+    align-self: stretch;
+    position: relative;
+    font-size: inherit;
+    font-weight: 700;
+    font-family: inherit;
+    z-index: 2;
+  }
+  .see-more3 {
+    width: 308px;
+    position: relative;
+    font-size: 18px;
+    display: inline-block;
+    font-weight: 600;
+    font-family: Poppins;
+    color: #0019f7;
+  }
+  .sleep-disorder-info {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 35.6px;
+  }
+  .disease-cards,
+  .sleep-disorder {
+    display: flex;
+    align-items: flex-start;
+    max-width: 100%;
+  }
+  .sleep-disorder {
+    width: 335px;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 41.5px;
+    flex-shrink: 0;
+    margin-left: -35.8px;
+  }
+  .disease-cards {
+    align-self: stretch;
+    flex-direction: row;
+    justify-content: center;
+    row-gap: 20px;
+    text-align: left;
+    font-size: 35px;
+  }
+  .more-diseases-container {
+    width: 982px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    gap: 49px;
+    max-width: 100%;
+  }
+  .more-diseases {
+    width: 1256px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0 20px;
+    box-sizing: border-box;
+    max-width: 100%;
+    text-align: center;
+    font-size: 54px;
+    color: #000;
+    font-family: Manrope;
+  }
+  @media screen and (max-width: 1050px) {
+    .penyakit-lainnya1 {
+      font-size: 43px;
+    }
+    .depresi {
+      font-size: 28px;
+    }
+    .disease-icons {
+      flex: 1;
+    }
+    .skizofrenia {
+      font-size: 28px;
+    }
+    .disease-icons1 {
+      flex: 1;
+    }
+    .gangguan-tidur {
+      font-size: 28px;
+    }
+    .disease-cards {
+      flex-wrap: wrap;
+    }
+  }
+  @media screen and (max-width: 750px) {
+    .more-diseases-container {
+      gap: 24px;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .penyakit-lainnya1 {
+      font-size: 32px;
+    }
+    .depresi {
+      font-size: 21px;
+    }
+    .disease-icons {
+      gap: 19px;
+    }
+    .skizofrenia {
+      font-size: 21px;
+    }
+    .disease-icons1 {
+      gap: 19px;
+    }
+    .gangguan-tidur {
+      font-size: 21px;
+    }
+    .sleep-disorder-info {
+      gap: 18px;
+    }
+    .sleep-disorder {
+      gap: 21px;
+    }
+  }
+  

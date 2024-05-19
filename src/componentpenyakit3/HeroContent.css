@@ -1,0 +1,160 @@
+.img-20240506-233046-2-icon {
+    height: 94px;
+    width: 202px;
+    position: relative;
+    object-fit: cover;
+    z-index: 3;
+  }
+  .beranda {
+    display: inline-block;
+    min-width: 82px;
+  }
+  .beranda,
+  .direktori,
+  .vector-icon {
+    position: relative;
+    z-index: 3;
+  }
+  .direktori {
+    display: inline-block;
+    min-width: 85px;
+  }
+  .vector-icon {
+    width: 6.5px;
+    height: 5.4px;
+  }
+  .navigation-items,
+  .vector-wrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .vector-wrapper {
+    flex-direction: column;
+    padding: 13px 0 0;
+  }
+  .navigation-items {
+    flex-direction: row;
+    gap: 2px;
+  }
+  .konsultasi-online {
+    position: relative;
+    white-space: nowrap;
+    z-index: 3;
+  }
+  .konsultasi-online-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 4.5px 0 0;
+  }
+  .informasi {
+    position: relative;
+    display: inline-block;
+    min-width: 93.5px;
+    z-index: 3;
+  }
+  .vector-icon1 {
+    width: 6.5px;
+    height: 5.4px;
+    position: relative;
+    z-index: 4;
+  }
+  .vector-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 13px 0 0;
+  }
+  .hero-navigation,
+  .navigation-items1 {
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  .navigation-items1 {
+    display: flex;
+    align-items: flex-start;
+  }
+  .hero-navigation {
+    gap: 17.5px;
+  }
+  .hero-details,
+  .hero-navigation,
+  .hero-title {
+    display: flex;
+    align-items: flex-start;
+    max-width: 100%;
+  }
+  .hero-title {
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 33px;
+  }
+  .hero-details {
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 30px;
+    box-sizing: border-box;
+  }
+  .see-detail1 {
+    position: relative;
+    font-size: 22px;
+    display: inline-block;
+    font-family: Manrope;
+    color: #000;
+    text-align: left;
+    min-width: 93px;
+    white-space: nowrap;
+  }
+  .button1,
+  .detail-button {
+    display: flex;
+    align-items: flex-start;
+  }
+  .button1 {
+    cursor: pointer;
+    border: 0;
+    padding: 15px 50px;
+    background-color: #fff;
+    border-radius: 30px;
+    flex-direction: row;
+    justify-content: flex-start;
+    z-index: 3;
+  }
+  .button1:hover {
+    background-color: #e6e6e6;
+  }
+  .detail-button {
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 14px;
+  }
+  .hero-content {
+    width: 1236px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+    top: 0;
+    z-index: 99;
+    position: sticky;
+    gap: 20px;
+    max-width: 100%;
+    text-align: left;
+    font-size: 20px;
+    color: #fff;
+    font-family: Manrope;
+  }
+  @media screen and (max-width: 1100px) {
+    .hero-navigation {
+      display: none;
+    }
+  }
+  @media screen and (max-width: 750px) {
+    .hero-title {
+      gap: 16px;
+    }
+  }
+  
