@@ -1,0 +1,162 @@
+.img-20240506-233046-2-icon {
+    height: 94px;
+    width: 202px;
+    position: relative;
+    object-fit: cover;
+    z-index: 3;
+  }
+  .beranda1 {
+    display: inline-block;
+    min-width: 81px;
+  }
+  .beranda1,
+  .direktori1,
+  .vector-icon {
+    position: relative;
+    z-index: 3;
+  }
+  .direktori1 {
+    display: inline-block;
+    min-width: 85px;
+  }
+  .vector-icon {
+    width: 6.5px;
+    height: 2.8px;
+  }
+  .directory-info,
+  .vector-wrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .vector-wrapper {
+    flex-direction: column;
+    padding: 13px 0 0;
+  }
+  .directory-info {
+    flex-direction: row;
+    gap: 3px;
+  }
+  .konsultasi-online1 {
+    display: inline-block;
+    min-width: 81px;
+  }
+  .consultation {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 9.5px 0 0;
+  }
+  
+  .informasi1,
+  .vector-icon1 {
+    position: relative;
+    z-index: 3;
+  }
+  .informasi1 {
+    display: inline-block;
+    min-width: 92px;
+  }
+  .vector-icon1 {
+    width: 6.5px;
+    height: 2.8px;
+  }
+  .vector-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 13px 0 0;
+  }
+  .directory-info1,
+  .nav-links {
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  .directory-info1 {
+    display: flex;
+    align-items: flex-start;
+    gap: 3px;
+  }
+  .nav-links {
+    gap: 16.5px;
+  }
+  .hero-info,
+  .hero-nav,
+  .nav-links {
+    display: flex;
+    align-items: flex-start;
+    max-width: 100%;
+  }
+  .hero-nav {
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 34px;
+  }
+  .hero-info {
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 30px;
+    box-sizing: border-box;
+  }
+  .see-detail1 {
+    position: relative;
+    font-size: 22px;
+    display: inline-block;
+    font-family: Manrope;
+    color: #000;
+    text-align: left;
+    min-width: 101px;
+    white-space: nowrap;
+  }
+  .button-wrapper,
+  .button1 {
+    display: flex;
+    align-items: flex-start;
+  }
+  .button1 {
+    cursor: pointer;
+    border: 0;
+    padding: 15px 50px;
+    background-color: #fff;
+    border-radius: 30px;
+    flex-direction: row;
+    justify-content: flex-start;
+    z-index: 3;
+  }
+  .button1:hover {
+    background-color: #e6e6e6;
+  }
+  .button-wrapper {
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 14px;
+  }
+  .img-20240506-233046-2-parent {
+    width: 1244px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+    top: 0;
+    z-index: 99;
+    position: sticky;
+    gap: 20px;
+    max-width: 100%;
+    text-align: left;
+    font-size: 20px;
+    color: #fff;
+    font-family: Manrope;
+  }
+  @media screen and (max-width: 1050px) {
+    .nav-links {
+      display: none;
+    }
+  }
+  @media screen and (max-width: 750px) {
+    .hero-nav {
+      gap: 17px;
+    }
+  }
+  

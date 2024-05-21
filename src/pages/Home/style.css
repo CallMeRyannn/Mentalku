@@ -1,0 +1,161 @@
+.kami-membantu-orang {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.helping {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 57px 74px 56px;
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: left;
+  font-size: 48px;
+  color: #000;
+  font-family: Manrope;
+}
+.home-1-child {
+  width: 1119px;
+  height: 509px;
+  position: absolute;
+  margin: 0 !important;
+  bottom: 2508px;
+  left: -174px;
+  z-index: 6;
+}
+.frame-child {
+  width: 1294px;
+  height: 473px;
+  position: relative;
+  border-radius: 5px 50px 5px 50px;
+  background-color: #e3f5f9;
+  display: none;
+  max-width: 100%;
+  z-index: 0;
+}
+.perawatan-diri-bukanlah {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 1;
+}
+.icon {
+  height: 81px;
+  width: 80px;
+  position: absolute;
+  margin: 0 !important;
+  right: -14px;
+  bottom: -7px;
+  object-fit: contain;
+  z-index: 2;
+}
+.perawatan-diri-bukanlah-sebuah-parent {
+  width: 1192px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  max-width: 100%;
+}
+.icon1 {
+  width: 80px;
+  height: 81px;
+  position: absolute;
+  margin: 0 !important;
+  top: 32px;
+  left: 31px;
+  z-index: 1;
+}
+.rectangle-parent {
+  flex: 1;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25) inset, 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px 50px 5px 50px;
+  background-color: #e3f5f9;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-end;
+  padding: 127px 43px 50px;
+  box-sizing: border-box;
+  position: relative;
+  max-width: 100%;
+}
+.home-1,
+.quote {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.quote {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 38px 97px 37px;
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: center;
+  font-size: 54px;
+  color: #000;
+  font-family: Manrope;
+}
+.home-1 {
+  width: 100%;
+  position: relative;
+  background-color: #eef7ff;
+  overflow: hidden;
+  flex-direction: column;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1200px) {
+  .rectangle-parent {
+    padding-left: 21px;
+    padding-right: 21px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .kami-membantu-orang {
+    font-size: 38px;
+  }
+  .perawatan-diri-bukanlah {
+    font-size: 43px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .helping {
+    padding-left: 28px;
+    padding-right: 28px;
+    box-sizing: border-box;
+  }
+  .rectangle-parent {
+    padding-top: 83px;
+    padding-bottom: 32px;
+    box-sizing: border-box;
+  }
+  .quote {
+    padding-bottom: 63px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .kami-membantu-orang {
+    font-size: 29px;
+  }
+  .perawatan-diri-bukanlah {
+    font-size: 32px;
+  }
+}

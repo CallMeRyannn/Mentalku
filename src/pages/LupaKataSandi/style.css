@@ -1,0 +1,232 @@
+.bg-icon {
+  position: relative;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  left: -1px;
+  object-fit: cover;
+  margin-right: 30px;
+}
+.lupa-kata-sandi1 {
+  margin: 0;
+  position: relative;
+  font-size: 50px;
+  font-weight: 400;
+  font-family: 'Times New Roman', Times, serif;
+}
+.email-input-label {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 52px;
+}
+.masukkan-alamat-email {
+  align-self: stretch;
+  position: relative;
+  font-size: 40px;
+  font-weight: 5000;
+  font-family: 'Times New Roman', Times, serif;
+}
+.email-input-field-child {
+  height: 82px;
+  width: 661px;
+  position: relative;
+  border-radius: 10px;
+  background-color: var(--txt);
+  border: 2px solid ;
+  border-color: black;
+  box-sizing: border-box;
+  display: none;
+  max-width: 100%;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.masukkan-alamat-email1 {
+  width: 430px;
+  border: 0;
+  outline: 0;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 32px;
+  background-color: transparent;
+  height: 28px;
+  position: relative;
+  color: rgba(0, 0, 0, 0.7);
+  text-align: left;
+  display: inline-block;
+  padding: 0;
+  z-index: 1;
+}
+.email-input-field,
+.email-input-field-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.email-input-field {
+  flex: 1;
+  border-radius: var(--br-xs);
+  background-color: var(--txt);
+  border: 2px solid var(--color-black);
+  padding: 24px var(--padding-11xl);
+}
+.email-input-field-wrapper {
+  align-self: stretch;
+  padding: 0 0 8px;
+}
+.submit-button-child {
+  height: 99px;
+  width: 661px;
+  position: relative;
+  border-radius: var(--br-xs);
+  background-color: #3b8fb0;
+  display: none;
+  max-width: 100%;
+  font: 30px;
+}
+.kirim-kode {
+  position: relative;
+  font-size: var(--font-size-13xl);
+  font-family: var(--font-times-new-roman);
+  color: var(--txt);
+  text-align: left;
+  z-index: 1;
+}
+.submit-button {
+  cursor: pointer;
+  border: 0;
+  padding:  21px;
+  background-color: #3b8fb0;
+  align-self: stretch;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  box-sizing: border-box;
+  max-width: 100%;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.submit-button:hover {
+  background-color: #3b8fb0;
+}
+.kembali-untuk-masuk {
+  font-size: 28px;
+  color: #3b8fb0;
+  margin-top: 15px;
+  font-family: 'Times New Roman', Times, serif;
+}
+.login-link {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+}
+.buttons,
+.email-input-container {
+  align-self: stretch;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.buttons {
+  display: flex;
+  justify-content: flex-start;
+  gap: var(--gap-lgi);
+  max-width: 100%;
+  font-size: var(--font-size-17xl);
+  color: var(--color-skyblue);
+  font-family: var(--font-times-new-roman);
+}
+.email-input-container {
+  gap: 38px;
+}
+.email-form,
+.email-input-container,
+.lupa-kata-sandi {
+  max-width: 100%;
+  display: flex;
+  justify-content: flex-start;
+}
+.email-form {
+  width: 661px;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 0 41px;
+  box-sizing: border-box;
+  min-width: 661px;
+  min-height: 632px;
+}
+.lupa-kata-sandi {
+  width: 1369px;
+  background-color: var(--color-aliceblue);
+  overflow: hidden;
+  flex-direction: row;
+  align-items: flex-end;
+  gap: var(--gap-22xl);
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: 70px;
+  color: var(--color-black);
+  font-family: var(--font-inria-serif);
+}
+@media screen and (max-width: 1225px) {
+  .bg-icon,
+  .email-form {
+    flex: 1;
+  }
+  .lupa-kata-sandi {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 750px) {
+  .lupa-kata-sandi1 {
+    font-size: 56px;
+  }
+  .email-input-label {
+    padding-left: var(--padding-7xl);
+    padding-right: var(--padding-7xl);
+    box-sizing: border-box;
+  }
+  .kirim-kode,
+  .masukkan-alamat-email {
+    font-size: var(--font-size-7xl);
+  }
+  .kembali-untuk-masuk {
+    font-size: var(--font-size-10xl);
+  }
+  .email-input-container {
+    gap: var(--gap-lgi);
+  }
+  .email-form {
+    padding-bottom: var(--padding-8xl);
+    box-sizing: border-box;
+    min-width: 100%;
+  }
+  .lupa-kata-sandi {
+    gap: var(--gap-xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .lupa-kata-sandi1 {
+    font-size: 42px;
+  }
+  .kirim-kode,
+  .masukkan-alamat-email,
+  .masukkan-alamat-email1 {
+    font-size: var(--font-size-lgi);
+  }
+  .kembali-untuk-masuk {
+    font-size: var(--h6-size);
+  }
+}

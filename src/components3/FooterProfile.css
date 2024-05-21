@@ -1,0 +1,197 @@
+.rectangle-div {
+  height: 491px;
+  width: 1369px;
+  position: relative;
+  background-color: var(--color-skyblue);
+  display: none;
+  max-width: 100%;
+}
+.img-20240506-233046-1-icon {
+  align-self: stretch;
+  width: 351px;
+  position: relative;
+  max-height: 100%;
+  object-fit: cover;
+  min-height: 149px;
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.contact {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  min-width: 112px;
+}
+.call-icon {
+  height: 32px;
+  width: 32px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.call-icon,
+.contact-option-details {
+  position: relative;
+}
+.contact-items {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+}
+.message-icon {
+  height: 32px;
+  width: 32px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.mentalkugmailcom {
+  position: relative;
+  white-space: nowrap;
+}
+.contact-items1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+}
+.contact-options {
+  flex-direction: column;
+  gap: var(--gap-xl);
+}
+.contact-details,
+.contact-info,
+.contact-options,
+.img-20240506-233046-1-parent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.contact-details {
+  width: 527px;
+  flex-direction: column;
+  max-width: 114%;
+  flex-shrink: 0;
+  text-align: center;
+  font-size: var(--body1-light-size);
+  font-family: var(--body1-light);
+}
+.contact-info,
+.img-20240506-233046-1-parent {
+  padding: 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.contact-info {
+  width: 464px;
+  flex-direction: column;
+  gap: var(--gap-11xl);
+  min-width: 464px;
+  flex-shrink: 0;
+}
+.img-20240506-233046-1-parent {
+  width: 761px;
+  flex-direction: row;
+  gap: var(--gap-75xl);
+}
+.contact-content-child {
+  width: 1368.7px;
+  height: 4px;
+  position: relative;
+  object-fit: contain;
+  max-width: 129%;
+  flex-shrink: 0;
+}
+.vector-icon2 {
+  height: 30px;
+  width: 151px;
+  position: relative;
+}
+.footer-content {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.copyright-2024-mentalkuid {
+  position: relative;
+}
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-11xl);
+  font-size: var(--body1-light-size);
+  font-family: var(--body1-light);
+}
+.contact-content,
+.rectangle-parent {
+  display: flex;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.contact-content {
+  width: 1064px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0;
+  gap: var(--gap-41xl);
+  z-index: 1;
+}
+.rectangle-parent {
+  align-self: stretch;
+  background-color: var(--color-skyblue);
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-49xl) var(--padding-xl) var(--padding-41xl)
+    var(--padding-26xl);
+  text-align: left;
+  font-size: var(--h5-size);
+  color: var(--txt);
+  font-family: var(--h5);
+}
+@media screen and (max-width: 1200px) {
+  .rectangle-parent {
+    padding-left: var(--padding-3xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .contact-info,
+  .img-20240506-233046-1-icon {
+    flex: 1;
+  }
+  .img-20240506-233046-1-parent {
+    flex-wrap: wrap;
+    gap: var(--gap-28xl);
+  }
+}
+@media screen and (max-width: 750px) {
+  .contact-info {
+    min-width: 100%;
+  }
+  .contact-content {
+    gap: var(--gap-11xl);
+  }
+  .rectangle-parent {
+    padding-top: var(--padding-25xl);
+    padding-bottom: var(--padding-20xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .contact {
+    font-size: var(--h6-size);
+  }
+  .img-20240506-233046-1-parent {
+    gap: var(--gap-4xl);
+  }
+}

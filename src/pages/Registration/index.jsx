@@ -1,12 +1,12 @@
-import "./style2.css";
+import "./style.css";
 import { Link } from 'react-router-dom';
 
 const Registration = () => {
   return (
-    <div className="daftar1">
-      <form className="frame-parent">
+    <div className="daftar">
+      <form className="frame-group">
         <div className="daftar-wrapper">
-          <h1 className="daftar2">Daftar</h1>
+          <h1 className="daftar1">Daftar</h1>
         </div>
         <div className="silahkan-atur-akun-anda-wrapper">
           <div className="silahkan-atur-akun">Silahkan atur akun Anda!</div>
@@ -16,30 +16,30 @@ const Registration = () => {
             <div className="email-wrapper">
               <div className="email">
                 <div className="nama">Nama</div>
-                <input className="bg2" type="text" />
+                <input className="bg" type="text" />
               </div>
             </div>
             <div className="alamat-email-parent">
-              <div className="alamat-email1">Alamat Email</div>
-              <input className="bg3" type="email" />
+              <div className="alamat-email">Alamat Email</div>
+              <input className="bg1" type="text" />
             </div>
             <div className="password">
-              <div className="kata-sandi1">Kata Sandi</div>
-              <input className="bg4" type="password" />
+              <div className="kata-sandi">Kata Sandi</div>
+              <input className="bg2" type="password" />
             </div>
             <div className="password1">
               <div className="konfirmasi-kata-sandi">Konfirmasi Kata Sandi</div>
-              <input className="bg5" type="password" />
+              <input className="bg3" type="password" />
             </div>
           </div>
         </div>
         <div className="buttonprimarywith-icon-parent">
-          <button className="buttonprimarywith-icon1">
+          <button className="buttonprimarywith-icon">
             <div className="button-name-parent">
-              <div className="button-name1">Daftar</div>
-              <div className="icon1">
+              <div className="button-name">Daftar</div>
+              <div className="icon2">
                 <img
-                  className="iconoutlinearrow-right1"
+                  className="iconoutlinearrow-right"
                   alt=""
                   src="/iconoutlinearrowright.svg"
                 />
@@ -51,9 +51,9 @@ const Registration = () => {
           </Link>
         </div>
       </form>
-      <img className="bg-icon1" alt="" src="/img/bg1.png" />
+      <img className="bg-icon" alt="" src="/img/bg1.png" />
     </div>
   );
 };
 
-export default Registration
+export default Registration;

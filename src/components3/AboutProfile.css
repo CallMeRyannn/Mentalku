@@ -1,0 +1,301 @@
+.about-content-child {
+    width: 1261px;
+    height: 1438px;
+    position: relative;
+    background-color: var(--txt);
+    display: none;
+    max-width: 100%;
+  }
+  .frame-child,
+  .frame-item {
+    position: absolute;
+    top: 0;
+    left: 15px;
+    width: 20px;
+    height: 0.2px;
+    object-fit: contain;
+    z-index: 1;
+  }
+  .frame-item {
+    top: 9px;
+    left: 0;
+    width: 50px;
+    height: 0.4px;
+  }
+  .line-parent {
+    height: 9.4px;
+    width: 50px;
+    position: relative;
+  }
+  .about-columns {
+    width: 1176px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0 var(--padding-xl);
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .tentang-mentalkucom {
+    margin: 0;
+    width: 560px;
+    position: relative;
+    font-size: inherit;
+    font-weight: 700;
+    font-family: inherit;
+    display: inline-block;
+    flex-shrink: 0;
+    max-width: 100%;
+    z-index: 1;
+  }
+  .tentang-mentalkucom-wrapper {
+    width: 750px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0 var(--padding-xl);
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .image-9-icon {
+    align-self: stretch;
+    flex: 1;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+    z-index: 1;
+  }
+  .image-9-wrapper {
+    height: 329px;
+    width: 554px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-67xl) 0 0;
+    box-sizing: border-box;
+    min-width: 554px;
+    max-width: 100%;
+  }
+  .salah-satu-website {
+    flex: 1;
+    position: relative;
+    letter-spacing: -0.02em;
+    line-height: 150%;
+    font-weight: 500;
+    display: inline-block;
+    min-width: 390px;
+    max-width: 100%;
+    z-index: 1;
+  }
+  .about-description,
+  .frame-group {
+    align-self: stretch;
+    display: flex;
+    max-width: 100%;
+  }
+  .frame-group {
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    gap: var(--gap-18xl);
+    text-align: left;
+    font-size: var(--font-size-6xl);
+    color: var(--color-gray);
+    font-family: var(--font-inter);
+  }
+  .about-description {
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    padding: 0 0 var(--padding-49xl-4);
+    box-sizing: border-box;
+    gap: var(--gap-9xs);
+  }
+  .visi-misi {
+    margin: 0;
+    align-self: stretch;
+    position: relative;
+    font-size: inherit;
+    font-weight: 700;
+    font-family: inherit;
+    z-index: 1;
+  }
+  .frame-inner,
+  .line-icon {
+    position: absolute;
+    top: 0;
+    left: 15px;
+    width: 20px;
+    height: 0.2px;
+    object-fit: contain;
+    z-index: 1;
+  }
+  .line-icon {
+    top: 9px;
+    left: 0;
+    width: 50px;
+    height: 0.4px;
+  }
+  .line-group {
+    height: 9.4px;
+    width: 50px;
+    position: relative;
+  }
+  .vision-mission-header-inner {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0 var(--padding-9xl) 0 var(--padding-xl);
+  }
+  .vision-mission-content,
+  .vision-mission-header {
+    display: flex;
+    align-items: flex-start;
+    max-width: 100%;
+  }
+  .vision-mission-header {
+    width: 560px;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: var(--gap-sm);
+  }
+  .vision-mission-content {
+    align-self: stretch;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0 var(--padding-xl) 0 var(--padding-47xl);
+    box-sizing: border-box;
+  }
+  .visi {
+    margin: 0;
+  }
+  .menjadi-sumber-utama {
+    margin: 0;
+    font-size: var(--font-size-5xl);
+    color: var(--color-black);
+  }
+  .misi {
+    margin: 0;
+  }
+  .berkomitmen-untuk-menjaga-kera,
+  .memberikan-akses-mudah-dan-gra1,
+  .mempromosikan-kesehatan-mental,
+  .menghubungkan-para-konselor-pr,
+  .menyediakan-platform-yang-aman {
+    margin-bottom: 0;
+  }
+  .memberikan-akses-mudah-dan-gra {
+    margin: 0;
+    font-family: inherit;
+    font-size: var(--font-size-5xl);
+    padding-left: var(--padding-13xl);
+    color: var(--color-black);
+  }
+  .visi-menjadi-sumber-container {
+    align-self: stretch;
+    position: relative;
+    font-family: var(--body1-light);
+    text-align: left;
+    z-index: 1;
+    font-size: var(--font-size-13xl);
+  }
+  .about-content,
+  .vision-mission {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .vision-mission {
+    width: 1138px;
+    gap: var(--gap-2xl-6);
+  }
+  .about-content {
+    flex: 1;
+    background-color: var(--txt);
+    padding: var(--padding-34xl) var(--padding-3xs) var(--padding-11xl)
+      var(--padding-41xl);
+    box-sizing: border-box;
+    gap: var(--gap-48xl-6);
+    text-align: center;
+    font-size: var(--font-size-17xl);
+    color: var(--color-skyblue);
+    font-family: var(--font-inika);
+  }
+  @media screen and (max-width: 1200px) {
+    .image-9-icon {
+      align-self: stretch;
+      width: auto;
+    }
+    .image-9-wrapper {
+      flex: 1;
+    }
+    .frame-group {
+      flex-wrap: wrap;
+    }
+    .about-content {
+      padding-left: var(--padding-11xl);
+      padding-top: var(--padding-15xl);
+      padding-bottom: var(--padding-xl);
+      box-sizing: border-box;
+    }
+  }
+  @media screen and (max-width: 1050px) {
+    .tentang-mentalkucom {
+      font-size: var(--font-size-10xl);
+    }
+    .image-9-wrapper {
+      min-width: 100%;
+    }
+    .visi-misi {
+      font-size: var(--font-size-10xl);
+    }
+  }
+  @media screen and (max-width: 750px) {
+    .salah-satu-website {
+      min-width: 100%;
+    }
+    .frame-group {
+      gap: var(--gap-lg);
+    }
+    .about-description {
+      padding-bottom: var(--padding-25xl);
+      box-sizing: border-box;
+    }
+    .vision-mission-content {
+      padding-left: var(--padding-14xl);
+      box-sizing: border-box;
+    }
+    .about-content {
+      gap: var(--gap-15xl);
+      padding-top: var(--padding-3xl);
+      box-sizing: border-box;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .tentang-mentalkucom {
+      font-size: var(--h6-size);
+    }
+    .salah-satu-website {
+      font-size: var(--font-size-xl);
+      line-height: 30px;
+    }
+    .visi-misi {
+      font-size: var(--h6-size);
+    }
+    .visi-menjadi-sumber-container {
+      font-size: var(--font-size-lgi);
+    }
+    .about-content {
+      gap: var(--gap-mid);
+    }
+  }
+  

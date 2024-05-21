@@ -1,0 +1,268 @@
+.galeri {
+  position: relative;
+  display: inline-block;
+  min-width: 64px;
+}
+.kesehatan-mental-di {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: 48px;
+  font-weight: 700;
+  font-family: inherit;
+  text-align: left;
+}
+.gallery-header,
+.gallery-title {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.gallery-title {
+  flex: 1;
+  flex-direction: column;
+  gap: 20px;
+}
+.gallery-header {
+  width: 819px;
+  flex-direction: row;
+  padding: 0 2px;
+  box-sizing: border-box;
+}
+.mask-group-icon,
+.mask-group-icon1 {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+}
+.mask-group-icon {
+  flex: 1;
+  max-height: 100%;
+}
+.mask-group-icon1 {
+  height: 469.3px;
+  flex-shrink: 0;
+}
+.image-grid {
+  height: 1112px;
+  width: 360.8px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 55.6px;
+  min-width: 360.7999999999999px;
+  max-width: 100%;
+}
+.gallery-photo-icon,
+.mask-group-icon2 {
+  align-self: stretch;
+  position: relative;
+  max-height: 100%;
+  min-height: 347px;
+}
+.gallery-photo-icon {
+  flex: 1;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+  min-width: 362px;
+}
+.mask-group-icon2 {
+  width: 302.2px;
+  object-fit: contain;
+}
+.gallery-photo-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 38.8px;
+  max-width: 100%;
+}
+.mask-group-icon3 {
+  width: 360.8px;
+  position: relative;
+  max-height: 100%;
+  object-fit: contain;
+  min-height: 707px;
+  max-width: 100%;
+}
+.mask-group-icon4 {
+  align-self: stretch;
+  height: 346.9px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+  debug_commit: 1de1738;
+}
+.mask-group-icon5 {
+  width: 218.3px;
+  position: relative;
+  max-height: 100%;
+  object-fit: cover;
+  min-height: 307px;
+}
+.mask-group-container,
+.mask-group-icon5,
+.mask-group-icon6 {
+  align-self: stretch;
+  flex-shrink: 0;
+  debug_commit: 1de1738;
+}
+.mask-group-icon6 {
+  width: 237.8px;
+  position: relative;
+  max-height: 100%;
+  object-fit: cover;
+  min-height: 307px;
+}
+.mask-group-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 40.8px;
+}
+.image-row,
+.mask-group-group,
+.mask-group-parent {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.mask-group-group {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 55.7px;
+  min-width: 323px;
+}
+.image-row,
+.mask-group-parent {
+  align-items: flex-end;
+}
+.mask-group-parent {
+  align-self: stretch;
+  flex-direction: row;
+  gap: 40.7px;
+}
+.image-row {
+  flex: 1;
+  flex-direction: column;
+  gap: 55.5px;
+  min-width: 584px;
+}
+.gallery-images {
+  align-self: stretch;
+  flex-direction: row;
+  gap: 40.8px;
+}
+.gallery,
+.gallery-content,
+.gallery-images {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.gallery-content {
+  flex: 1;
+  flex-direction: column;
+  gap: 35px;
+}
+.gallery {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 34px 102px 35px;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 22px;
+  color: #000;
+  font-family: Manrope;
+}
+@media screen and (max-width: 1200px) {
+  .image-grid {
+    flex: 1;
+  }
+  .gallery-images {
+    flex-wrap: wrap;
+  }
+  .gallery {
+    padding-bottom: 66px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .kesehatan-mental-di {
+    font-size: 38px;
+  }
+  .mask-group-icon2 {
+    flex: 1;
+  }
+  .gallery-photo-parent {
+    flex-wrap: wrap;
+  }
+  .mask-group-icon3 {
+    flex: 1;
+  }
+  .mask-group-parent {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 750px) {
+  .gallery-photo-icon,
+  .image-grid {
+    min-width: 100%;
+  }
+  .mask-group-icon5,
+  .mask-group-icon6 {
+    flex: 1;
+  }
+  .mask-group-container {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .mask-group-group {
+    gap: 28px;
+  }
+  .image-row {
+    min-width: 100%;
+  }
+  .gallery-images {
+    gap: 20px;
+  }
+  .gallery-content {
+    gap: 17px;
+  }
+  .gallery {
+    padding-bottom: 43px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .galeri {
+    font-size: 18px;
+  }
+  .kesehatan-mental-di {
+    font-size: 29px;
+  }
+  .image-grid {
+    gap: 28px;
+  }
+  .gallery-photo-parent {
+    gap: 19px;
+  }
+  .mask-group-parent {
+    gap: 20px;
+  }
+  .image-row {
+    gap: 28px;
+  }
+}

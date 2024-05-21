@@ -1,0 +1,200 @@
+.hero-image-overlay {
+  position: absolute;
+  top: 0;
+  left: 13.3px;
+  background-color: #e2bfb3;
+  width: 1369px;
+  height: 640px;
+}
+.pexels-shvets-production-71760-icon {
+  height: 640px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+  z-index: 1;
+}
+.keeper,
+.mind {
+  margin: 0;
+  margin-left: 30px;
+}
+.keeper {
+  white-space: pre-wrap;
+  margin-left: 300px;
+}
+.mind-keeper {
+  margin: 0 !important;
+  width: 752.3px;
+  position: absolute;
+  top: 50px;
+  left: -188.7px;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  text-shadow: 1px 0 0 rgba(110, 193, 228, 0.3),
+    0 1px 0 rgba(110, 193, 228, 0.3), -1px 0 0 rgba(110, 193, 228, 0.3),
+    0-1px 0 rgba(110, 193, 228, 0.3);
+  z-index: 3;
+}
+.hero-image-info {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1382.2px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.background-shape {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: linear-gradient(
+    180deg,
+    rgba(134, 130, 130, 0.3),
+    rgba(158, 221, 255, 0.3)
+  );
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+}
+.hero-content {
+  height: calc(100% - 52px);
+  width: 1398.3px;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: -16px;
+  bottom: 52px;
+}
+.kesehatan-bukan-hanya,
+.konsultasi-sekarang-juga {
+  margin: 0;
+}
+.kesehatan-bukan-hanya-container {
+  margin: 0;
+  width: 526.6px;
+  position: relative;
+  font-size: 25px;
+  font-weight: 400;
+  font-family: Poppins;
+  display: inline-block;
+  flex-shrink: 0;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  -webkit-text-stroke: 1px rgba(110, 193, 228, 0.2);
+  max-width: 100%;
+  z-index: 4;
+}
+.consultation-button-child {
+  height: 63px;
+  width: 185.6px;
+  position: relative;
+  border-radius: 20px;
+  background-color: #6ec1e4;
+  display: none;
+}
+.konsultasi {
+  flex: 1;
+  position: relative;
+  font-size: 25px;
+  font-family: Poppins;
+  color: #fff;
+  text-align: center;
+  display: inline-block;
+  min-width: 129.1px;
+  z-index: 4;
+}
+.consultation-action,
+.consultation-button,
+.hero1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.consultation-button {
+  cursor: pointer;
+  border: 0;
+  padding: 13px 28.2px 12px 28.3px;
+  background-color: #6ec1e4;
+  align-self: stretch;
+  border-radius: 20px;
+  flex-direction: row;
+  z-index: 3;
+}
+.consultation-button:hover {
+  background-color: #3b8fb0;
+}
+.consultation-action,
+.hero1 {
+  box-sizing: border-box;
+}
+.consultation-action {
+  width: 185.6px;
+  flex-direction: column;
+  padding: 174px 0 0;
+  margin-left: -351.1px;
+}
+.hero1 {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 320px 9.9px 108px;
+  position: relative;
+  min-height: 717px;
+  max-width: 100%;
+  text-align: center;
+  font-size: 120px;
+  color: #fff;
+  font-family: "Monotype Corsiva";
+}
+@media screen and (max-width: 1050px) {
+  .mind-keeper {
+    font-size: 48px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .hero1 {
+    padding-top: 208px;
+    padding-bottom: 70px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .mind-keeper {
+    font-size: 30px;
+  }
+  .kesehatan-bukan-hanya-container,
+  .konsultasi {
+    font-size: 20px;
+  }
+}
+.information-block {
+  position: relative; /* Jadikan posisi relatif */
+}
+
+.submenu {
+  position: absolute;
+  top: calc(100% + 5px); /* Tempatkan submenu di bawah menu "Informasi" */
+  left: 0;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  z-index: 1; /* Pastikan submenu ditampilkan di atas konten lain */
+}
+
+.submenu a {
+  display: block;
+  padding: 8px 12px;
+  text-decoration: none;
+  color: #333;
+}
+
+.submenu a:hover {
+  background-color: #f0f0f0;
+}
