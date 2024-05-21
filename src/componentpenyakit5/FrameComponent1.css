@@ -1,0 +1,280 @@
+.penyakit-lainnya1 {
+    margin: 0;
+    width: 508px;
+    position: relative;
+    font-size: inherit;
+    font-weight: 700;
+    font-family: inherit;
+    display: inline-block;
+    flex-shrink: 0;
+    max-width: 100%;
+  }
+  .penyakit-lainnya-container {
+    width: 954px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0 20px;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .mask-group-icon1 {
+    width: 288.4px;
+    height: 335.3px;
+    position: relative;
+    object-fit: contain;
+  }
+  .depresi {
+    margin: 0;
+    flex: 1;
+    position: relative;
+    font-size: inherit;
+    font-weight: 700;
+    font-family: inherit;
+    display: inline-block;
+    max-width: 100%;
+  }
+  .depression-item {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 0 0 29px;
+    box-sizing: border-box;
+    max-width: 100%;
+    flex-shrink: 0;
+  }
+  .see-more1 {
+    flex: 1;
+    position: relative;
+    font-weight: 600;
+  }
+  .disease-items,
+  .see-more-depression {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .see-more-depression {
+    align-self: stretch;
+    flex-direction: row;
+    padding: 0 27px 0 29px;
+    font-size: 18px;
+    color: #0019f7;
+    font-family: Poppins;
+  }
+  .disease-items {
+    width: 364px;
+    flex-direction: column;
+    gap: 38.4px;
+    min-width: 364px;
+    max-width: 100%;
+  }
+  .mask-group-icon2,
+  .mask-group-icon3 {
+    align-self: stretch;
+    flex: 1;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+    min-width: 187px;
+    min-height: 335px;
+  }
+  .other-disease-masks {
+    width: 616.6px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 39.8px;
+    max-width: 100%;
+  }
+  .gangguan-tidur {
+    margin: 0;
+    align-self: stretch;
+    position: relative;
+    font-size: inherit;
+    font-weight: 700;
+    font-family: inherit;
+    z-index: 1;
+  }
+  .see-more2 {
+    width: 308px;
+    position: relative;
+    font-size: 18px;
+    display: inline-block;
+    font-weight: 600;
+    font-family: Poppins;
+    color: #0019f7;
+  }
+  .sleep-o-c-d-items {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 40px;
+    min-width: 218px;
+    max-width: 100%;
+  }
+  .gangguan-ocd {
+    margin: 0;
+    align-self: stretch;
+    position: relative;
+    font-size: inherit;
+    font-weight: 700;
+    font-family: inherit;
+    z-index: 2;
+  }
+  .see-more3 {
+    width: 308px;
+    position: relative;
+    font-size: 18px;
+    display: inline-block;
+    font-weight: 600;
+    font-family: Poppins;
+    color: #0019f7;
+  }
+  .sleep-o-c-d-items1 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 35.5px;
+    min-width: 218px;
+    max-width: 100%;
+    margin-left: -26px;
+  }
+  .sleep-o-c-d-pair,
+  .sleep-o-c-d-pair-wrapper {
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  .sleep-o-c-d-pair {
+    flex: 1;
+    display: flex;
+    align-items: flex-end;
+    max-width: 100%;
+    row-gap: 20px;
+  }
+  .sleep-o-c-d-pair-wrapper {
+    align-self: stretch;
+    padding: 0 0 0 9.8px;
+    box-sizing: border-box;
+  }
+  .other-diseases-grid,
+  .other-diseases-list,
+  .sleep-o-c-d-pair-wrapper {
+    display: flex;
+    align-items: flex-start;
+    max-width: 100%;
+  }
+  .other-diseases-grid {
+    flex: 1;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 36.7px;
+    min-width: 425px;
+    margin-left: -35.8px;
+  }
+  .other-diseases-list {
+    align-self: stretch;
+    flex-direction: row;
+    justify-content: center;
+    row-gap: 20px;
+    text-align: left;
+    font-size: 35px;
+  }
+  .other-diseases-content {
+    width: 982px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    gap: 49px;
+    max-width: 100%;
+  }
+  .other-diseases-content-wrapper {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0 27px 63px 20px;
+    box-sizing: border-box;
+    max-width: 100%;
+    text-align: center;
+    font-size: 54px;
+    color: #000;
+    font-family: Manrope;
+  }
+  @media screen and (max-width: 1050px) {
+    .penyakit-lainnya1 {
+      font-size: 43px;
+    }
+    .depresi {
+      font-size: 28px;
+    }
+    .disease-items {
+      flex: 1;
+    }
+    .gangguan-ocd,
+    .gangguan-tidur {
+      font-size: 28px;
+    }
+    .other-diseases-list {
+      flex-wrap: wrap;
+    }
+  }
+  @media screen and (max-width: 750px) {
+    .other-disease-masks {
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+    .sleep-o-c-d-pair {
+      flex-wrap: wrap;
+    }
+    .other-diseases-grid {
+      gap: 18px;
+      min-width: 100%;
+      margin-left: 0;
+    }
+    .other-diseases-content {
+      gap: 24px;
+    }
+    .other-diseases-content-wrapper {
+      padding-bottom: 41px;
+      box-sizing: border-box;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .penyakit-lainnya1 {
+      font-size: 32px;
+    }
+    .depresi {
+      font-size: 21px;
+    }
+    .disease-items {
+      gap: 19px;
+      min-width: 100%;
+    }
+    .gangguan-tidur {
+      font-size: 21px;
+    }
+    .sleep-o-c-d-items {
+      gap: 20px;
+    }
+    .gangguan-ocd {
+      font-size: 21px;
+    }
+    .sleep-o-c-d-items1 {
+      gap: 18px;
+      margin-left: 0;
+    }
+  }
+  

@@ -1,0 +1,149 @@
+.skizofrenia {
+    width: 653px;
+    display: inline-block;
+    flex-shrink: 0;
+    max-width: 100%;
+  }
+  .penyakit-lainnya,
+  .skizofrenia {
+    margin: 0;
+    position: relative;
+    font-size: inherit;
+    font-weight: 700;
+    font-family: inherit;
+  }
+  .penyakit-lainnya-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 28px 0 0;
+    font-size: 28px;
+  }
+  .skizofrenia-parent {
+    width: 998px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    max-width: 100%;
+    gap: 20px;
+  }
+  .diagnosis-skizofrenia-didasark,
+  .skizofrenia-adalah-gangguan {
+    margin: 0;
+  }
+  .skizofrenia-adalah-gangguan-container {
+    margin: 0;
+    align-self: stretch;
+    height: 855px;
+    position: relative;
+    font-size: inherit;
+    font-weight: 400;
+    font-family: inherit;
+    display: inline-block;
+  }
+  .description-content,
+  .frame-div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .description-content {
+    flex: 1;
+    padding: 21px 0 0;
+    box-sizing: border-box;
+    min-width: 478px;
+  }
+  .frame-div {
+    width: 505px;
+    gap: 50px;
+    min-width: 505px;
+    font-size: 22px;
+    font-family: Manrope;
+  }
+  .description-content-parent {
+    align-self: stretch;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 40px;
+    font-size: 30px;
+    font-family: Poppins;
+  }
+  .description-content-parent,
+  .direktori-penyakit-4-inner,
+  .frame-container {
+    display: flex;
+    align-items: flex-start;
+    max-width: 100%;
+  }
+  .frame-container {
+    flex: 1;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 29px;
+  }
+  .direktori-penyakit-4-inner {
+    width: 1351px;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 0 35px 287px;
+    box-sizing: border-box;
+    text-align: left;
+    font-size: 54px;
+    color: #000;
+    font-family: Manrope;
+  }
+  @media screen and (max-width: 1200px) {
+    .frame-div {
+      flex: 1;
+    }
+    .description-content-parent {
+      flex-wrap: wrap;
+    }
+    .direktori-penyakit-4-inner {
+      padding-bottom: 187px;
+      box-sizing: border-box;
+    }
+  }
+  @media screen and (max-width: 1050px) {
+    .skizofrenia {
+      font-size: 43px;
+    }
+    .skizofrenia-parent {
+      flex-wrap: wrap;
+    }
+    .skizofrenia-adalah-gangguan-container {
+      font-size: 24px;
+    }
+  }
+  @media screen and (max-width: 750px) {
+    .description-content,
+    .frame-div {
+      min-width: 100%;
+    }
+    .frame-div {
+      gap: 25px;
+    }
+    .description-content-parent {
+      gap: 20px;
+    }
+    .direktori-penyakit-4-inner {
+      padding-bottom: 122px;
+      box-sizing: border-box;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .skizofrenia {
+      font-size: 32px;
+    }
+    .penyakit-lainnya {
+      font-size: 22px;
+    }
+    .skizofrenia-adalah-gangguan-container {
+      font-size: 18px;
+    }
+  }
+  

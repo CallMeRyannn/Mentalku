@@ -1,0 +1,124 @@
+.gangguan-obsessive-compulsive {
+    margin: 0;
+    width: 653px;
+    position: relative;
+    font-size: inherit;
+    font-weight: 700;
+    font-family: inherit;
+    display: inline-block;
+    max-width: 100%;
+  }
+  .gejala-obsesi-ocd,
+  .obsesif-kompulsif-disorder-oc {
+    margin: 0;
+  }
+  .obsesif-kompulsif-disorder-oc-container {
+    margin: 0;
+    align-self: stretch;
+    position: relative;
+    font-size: 30px;
+    font-weight: 400;
+    font-family: Poppins;
+  }
+  .o-c-d-info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 50px;
+    min-width: 478px;
+    max-width: 100%;
+  }
+  .penyakit-lainnya {
+    margin: 0;
+    position: relative;
+    font-size: inherit;
+    font-weight: 700;
+    font-family: inherit;
+  }
+  .other-diseases-title {
+    align-self: stretch;
+    flex-direction: column;
+    gap: 37px;
+  }
+  .o-c-d-info-parent,
+  .other-diseases,
+  .other-diseases-container,
+  .other-diseases-title {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .other-diseases-container {
+    align-self: stretch;
+    flex-direction: column;
+    gap: 50px;
+  }
+  .o-c-d-info-parent,
+  .other-diseases {
+    max-width: 100%;
+  }
+  .other-diseases {
+    width: 505px;
+    flex-direction: column;
+    padding: 28px 0 0;
+    box-sizing: border-box;
+    min-width: 505px;
+    font-size: 28px;
+  }
+  .o-c-d-info-parent {
+    align-self: stretch;
+    flex-direction: row;
+    gap: 40px;
+    text-align: left;
+    font-size: 54px;
+    color: #000;
+    font-family: Manrope;
+  }
+  @media screen and (max-width: 1200px) {
+    .other-diseases {
+      flex: 1;
+    }
+    .o-c-d-info-parent {
+      flex-wrap: wrap;
+    }
+  }
+  @media screen and (max-width: 1050px) {
+    .gangguan-obsessive-compulsive {
+      font-size: 43px;
+    }
+    .obsesif-kompulsif-disorder-oc-container {
+      font-size: 24px;
+    }
+  }
+  @media screen and (max-width: 750px) {
+    .o-c-d-info {
+      gap: 25px;
+      min-width: 100%;
+    }
+    .other-diseases-title {
+      gap: 18px;
+    }
+    .other-diseases-container {
+      gap: 25px;
+    }
+    .other-diseases {
+      min-width: 100%;
+    }
+    .o-c-d-info-parent {
+      gap: 20px;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .gangguan-obsessive-compulsive {
+      font-size: 32px;
+    }
+    .obsesif-kompulsif-disorder-oc-container {
+      font-size: 18px;
+    }
+    .penyakit-lainnya {
+      font-size: 22px;
+    }
+  }
+  

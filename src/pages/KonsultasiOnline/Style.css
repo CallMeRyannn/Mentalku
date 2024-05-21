@@ -1,0 +1,210 @@
+.hero-child {
+  width: 1369px;
+  height: 611px;
+  position: relative;
+  background: linear-gradient(270deg, #6ec1e4);
+  display: none;
+  max-width: 100%;
+  z-index: 0;
+}
+.hero-image-icon {
+  width: 1298px;
+  height: 467px;
+  position: absolute;
+  margin: 0 !important;
+  right: -540px;
+  bottom: 0;
+  object-fit: contain;
+  z-index: 2;
+}
+.g8-icon {
+  height: 50px;
+  width: 50px;
+  position: relative;
+}
+.mindfulcare {
+  height: 38px;
+  position: relative;
+  display: inline-block;
+}
+.g8-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 14px;
+}
+.home {
+  font-weight: 600;
+}
+.about,
+.home,
+.page,
+.services {
+  height: 27px;
+  position: relative;
+  display: inline-block;
+}
+.home-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 49.7px;
+  max-width: 100%;
+  font-size: 18px;
+  font-family: Poppins;
+}
+.see-detail {
+  height: 30px;
+  position: relative;
+  display: inline-block;
+}
+.button {
+  border-radius: 30px;
+  background-color: #ec744a;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 15px 49px;
+  white-space: nowrap;
+  font-size: 22px;
+}
+.frame-parent {
+  width: 1596px;
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: 20px;
+  z-index: 2;
+}
+.about-us,
+.lorem-ipsum-dolor {
+  position: relative;
+  display: inline-block;
+}
+.about-us {
+  height: 93px;
+  font-weight: 800;
+}
+.lorem-ipsum-dolor {
+  align-self: stretch;
+  height: 54px;
+  font-size: 18px;
+  font-family: Poppins;
+}
+.about-us-parent {
+  width: 1173px;
+  display: none;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 50px;
+  max-width: 100%;
+  z-index: 3;
+  font-size: 68px;
+}
+.hero-item {
+  width: 5px;
+  height: 328px;
+  position: relative;
+  background-color: #fff;
+  display: none;
+  z-index: 4;
+}
+.hero {
+  align-self: stretch;
+  background: linear-gradient(270deg, #6ec1e4);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 19px 36px 88px 30px;
+  box-sizing: border-box;
+  position: relative;
+  gap: 82px;
+  max-width: 100%;
+  text-align: left;
+  font-size: 28px;
+  color: #fff;
+  font-family: Manrope;
+}
+.form-container,
+.form-container-wrapper {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.form-container {
+  width: 1183px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 63px;
+}
+.form-container-wrapper {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 24px 0 20px;
+  box-sizing: border-box;
+}
+.konsultasi-online {
+  width: 100%;
+  position: relative;
+  background-color: #eef7ff;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 76.5px;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1200px) {
+  .form-container {
+    gap: 31px;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .frame-parent {
+    flex-wrap: wrap;
+  }
+  .about-us {
+    font-size: 54px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .hero {
+    gap: 41px;
+    padding-top: 20px;
+    padding-bottom: 57px;
+    box-sizing: border-box;
+  }
+  .form-container {
+    gap: 16px;
+  }
+  .konsultasi-online {
+    gap: 38px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .mindfulcare {
+    font-size: 22px;
+  }
+  .home-parent {
+    flex-wrap: wrap;
+  }
+  .about-us {
+    font-size: 41px;
+  }
+  .hero {
+    gap: 20px;
+  }
+  .konsultasi-online {
+    gap: 19px;
+  }
+}

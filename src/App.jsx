@@ -1,11 +1,6 @@
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';  
 import Login from "./pages/Login"
 import Registration from "./pages/Registration"
-import Home from "./pages/Home"
-import JadwalDokter from './pages/JadwalDokter'
-import ResetPw from './pages/LupaKataSandi';
-// import ProfileWebsite from "./pages/ProfileWebsite"
-
 const App = () => {
 
   return (
