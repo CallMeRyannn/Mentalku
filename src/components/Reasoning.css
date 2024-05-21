@@ -1,0 +1,383 @@
+.mengapa {
+  position: relative;
+  display: inline-block;
+  min-width: 111px;
+}
+.flexibility-header {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 20px;
+}
+.mengapa-konsultasi-kesehatan {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: 48px;
+  font-weight: 700;
+  font-family: inherit;
+}
+.flexibility-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 20px;
+  max-width: 100%;
+}
+.feature-item-child,
+.flexibility {
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.flexibility {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 61px;
+}
+.feature-item-child {
+  width: 395px;
+  height: 383px;
+  position: relative;
+  border-radius: 30px 0 0 30px;
+  border: 1px solid #000;
+  display: none;
+}
+.psychologist-icon1 {
+  height: 130px;
+  width: 130px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.psychologist-icon {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 20px;
+}
+.fleksibel {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  min-width: 120px;
+  z-index: 1;
+}
+.feature-item2 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 20px;
+}
+.pasien-dapat-melakukan {
+  align-self: stretch;
+  position: relative;
+  font-size: 15px;
+  font-family: Poppins;
+  color: #000;
+  z-index: 1;
+}
+.feature-item,
+.feature-item1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 15px;
+}
+.feature-item {
+  border-radius: 30px 0 0 30px;
+  border: 1px solid #000;
+  padding: 13px;
+  gap: 30px;
+}
+.feature-item,
+.feature-list,
+.frame-item {
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.feature-list {
+  width: 393px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 68px 0 0;
+}
+.frame-item {
+  width: 471px;
+  height: 517px;
+  position: relative;
+  box-shadow: 20px 4px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+  background-color: #6ec1e4;
+  border: 1px solid #000;
+  display: none;
+}
+.group-icon {
+  height: 200px;
+  width: 200px;
+  position: relative;
+  z-index: 2;
+}
+.free-consult-content {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+}
+.gratis {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  min-width: 104px;
+  z-index: 2;
+}
+.gratis-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 20px;
+}
+.pasien-dapat-melakukan1 {
+  align-self: stretch;
+  position: relative;
+  font-size: 18px;
+  font-family: Poppins;
+  z-index: 2;
+}
+.free-consult-description {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 20px;
+}
+.frame-inner,
+.rectangle-group {
+  border: 1px solid #000;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.rectangle-group {
+  flex: 1;
+  box-shadow: 20px 4px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+  background-color: #6ec1e4;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 33px 24px 27px;
+  gap: 50px;
+  min-width: 306px;
+  z-index: 1;
+  font-size: 35px;
+  color: #fff;
+}
+.frame-inner {
+  width: 394px;
+  height: 383px;
+  position: relative;
+  border-radius: 0 30px 30px 0;
+  display: none;
+}
+.pendulum-icon {
+  height: 130px;
+  width: 130px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.pendulum-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 20px;
+}
+.fitur-lengkap {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  z-index: 1;
+}
+.fitur-lengkap-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 20px;
+}
+.tidak-hanya-konsultasi {
+  align-self: stretch;
+  position: relative;
+  font-size: 18px;
+  font-family: Poppins;
+  color: #000;
+  z-index: 1;
+}
+.feature-list1,
+.frame-container,
+.rectangle-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frame-container {
+  align-self: stretch;
+  gap: 20px;
+}
+.feature-list1,
+.rectangle-container {
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.rectangle-container {
+  align-self: stretch;
+  border-radius: 0 30px 30px 0;
+  border: 1px solid #000;
+  padding: 29px 12px;
+  gap: 50px;
+}
+.feature-list1 {
+  width: 392px;
+  padding: 68px 0 0;
+}
+.features {
+  align-self: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+  row-gap: 20px;
+  font-size: 28px;
+  color: #1a1a1a;
+}
+.features,
+.flexibility-parent,
+.reasoning {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.flexibility-parent {
+  flex: 1;
+  flex-direction: column;
+  gap: 52px;
+}
+.reasoning {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 57px 102px 56px;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 22px;
+  color: #000;
+  font-family: Manrope;
+}
+@media screen and (max-width: 1200px) {
+  .flexibility {
+    padding-left: 30px;
+    padding-right: 30px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .mengapa-konsultasi-kesehatan {
+    font-size: 38px;
+  }
+  .gratis {
+    font-size: 28px;
+  }
+  .reasoning {
+    padding-bottom: 66px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .rectangle-group {
+    gap: 25px;
+    padding-top: 21px;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+  }
+  .flexibility-parent {
+    gap: 26px;
+  }
+  .reasoning {
+    padding-left: 28px;
+    padding-right: 28px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .mengapa {
+    font-size: 18px;
+  }
+  .mengapa-konsultasi-kesehatan {
+    font-size: 29px;
+  }
+  .fleksibel {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  min-width: 120px;
+  z-index: 1;
+  }
+  .feature-list {
+    padding-top: 44px;
+    box-sizing: border-box;
+  }
+  .gratis {
+    font-size: 21px;
+  }
+  .fitur-lengkap {
+    font-size: 22px;
+  }
+  .rectangle-container {
+    gap: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+  }
+  .feature-list1 {
+    padding-top: 44px;
+    box-sizing: border-box;
+  }
+  .reasoning {
+    padding-bottom: 43px;
+    box-sizing: border-box;
+  }
+}

@@ -1,0 +1,181 @@
+.header-child {
+    height: 93px;
+    width: 1369px;
+    position: relative;
+    background-color: white;
+    display: none;
+    max-width: 100%;
+  }
+  .beranda,
+  .image-9-icon {
+    position: relative;
+    z-index: 1;
+  }
+  .image-9-icon {
+    height: 80px;
+    width: 184px;
+    object-fit: cover;
+  }
+  .beranda {
+    display: inline-block;
+    min-width: 77px;
+  }
+  .home-link {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 13px 0 0;
+  }
+  .direktori,
+  .healthiconsv {
+    position: relative;
+    z-index: 1;
+  }
+  .direktori {
+    display: inline-block;
+    min-width: 79px;
+  }
+  .healthiconsv {
+    width: 13px;
+    height: 7px;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .directories,
+  .healthiconsv-wrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .healthiconsv-wrapper {
+    flex-direction: column;
+    padding: 11px 0 0;
+  }
+  .directories {
+    flex-direction: row;
+    gap: 5px;
+  }
+  .konsultasi-online {
+  display: inline-block;
+  min-width: 77px;
+  }
+  .healthiconsv1,
+  .informasi,
+  .konsultasi-online {
+    position: relative;
+    z-index: 1;
+  }
+  .informasi {
+    display: inline-block;
+    min-width: 86px;
+  }
+  .healthiconsv1 {
+    width: 13px;
+    height: 7px;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .healthiconsv-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 11px 0 0;
+  }
+  .information-block,
+  .konsultasi-online-parent {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 5px;
+  }
+  .konsultasi-online-parent {
+    gap: 25px;
+  }
+  .navigation-container,
+  .navigation-links {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .navigation-links {
+    flex-direction: row;
+    gap: 25px;
+  }
+  .navigation-container {
+    width: 613px;
+    flex-direction: column;
+    padding: 26px 0 0;
+    box-sizing: border-box;
+  }
+  .login-button-child {
+    height: 40px;
+    width: 90px;
+    position: relative;
+    border-radius: 10px;
+    background-color: #6ec1e4;
+    display: none;
+  }
+  .masuk2 {
+    position: relative;
+    font-size: 20px;
+    display: inline-block;
+    font-family: Inter;
+    color: #fff;
+    text-align: left;
+    min-width: 66px;
+    z-index: 2;
+  }
+  .header,
+  .login-button,
+  .login-button-wrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .login-button {
+    cursor: pointer;
+    border: 0;
+    padding: 7px 12px 9px;
+    background-color: #6ec1e4;
+    border-radius: 10px;
+    flex-direction: row;
+    z-index: 1;
+  }
+  .login-button:hover {
+    background-color: #3b8fb0;
+  }
+  .header,
+  .login-button-wrapper {
+    flex-direction: column;
+    padding: 19px 0 0;
+  }
+  .header {
+    align-self: stretch;
+    background-color: #fff;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 7px 29px 6px 21px;
+    box-sizing: border-box;
+    top: 0;
+    z-index: 99;
+    position: sticky;
+    gap: 20px;
+    max-width: 100%;
+    text-align: left;
+    font-size: 20px;
+    color: #000;
+    font-family: Manrope;
+  }
+  @media screen and (max-width: 1050px) {
+    .navigation-links {
+      display: none;
+    }
+    .navigation-container {
+      width: 87px;
+    }
+  }
+  

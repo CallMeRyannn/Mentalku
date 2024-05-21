@@ -1,0 +1,201 @@
+.kami-membantu-orang {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+}
+.placeholder-icon {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-8xs) var(--br-31xl) var(--br-8xs) var(--br-31xl);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.gangguan-tidur {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+}
+.gangguan-tidur-wrapper,
+.placeholder-icon-parent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.gangguan-tidur-wrapper {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-59xl) 0 var(--padding-58xl);
+}
+.placeholder-icon-parent {
+  height: 336px;
+  flex-direction: column;
+  gap: var(--gap-lg);
+  max-width: 100%;
+}
+.placeholder-icon1 {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-8xs) var(--br-31xl) var(--br-8xs) var(--br-31xl);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.bipolar {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  min-width: 108px;
+}
+.bipolar-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-2xl) 0 var(--padding-xl);
+}
+.placeholder-icon-group {
+  height: 341px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-4xl);
+  max-width: 100%;
+}
+.rectangle-icon {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-8xs) var(--br-31xl) var(--br-8xs) var(--br-31xl);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.kecemasan-umum {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+}
+.kecemasan-umum-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-38xl) 0 var(--padding-39xl);
+}
+.frame-parent10,
+.rectangle-parent6 {
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.rectangle-parent6 {
+  height: 336px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-lg);
+}
+.frame-parent10 {
+  align-self: stretch;
+  display: grid;
+  flex-direction: row;
+  align-items: flex-end;
+  gap: var(--gap-20xl);
+  grid-template-columns: repeat(3, minmax(295px, 1fr));
+  font-size: var(--font-size-13xl);
+  font-family: var(--font-inria-serif);
+}
+.home-2-inner1,
+.kami-membantu-orang-orang-ya-parent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.kami-membantu-orang-orang-ya-parent {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-50xl);
+}
+.home-2-inner1 {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-37xl) var(--padding-133xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-29xl);
+  color: var(--color-black);
+  font-family: var(--h6);
+}
+@media screen and (max-width: 1050px) {
+  .kami-membantu-orang {
+    font-size: var(--font-size-19xl);
+  }
+  .bipolar,
+  .gangguan-tidur,
+  .kecemasan-umum {
+    font-size: var(--font-size-7xl);
+  }
+  .frame-parent10 {
+    justify-content: center;
+    grid-template-columns: repeat(2, minmax(295px, 511px));
+  }
+}
+@media screen and (max-width: 750px) {
+  .frame-parent10 {
+    gap: var(--gap-lgi);
+    grid-template-columns: minmax(295px, 1fr);
+  }
+  .kami-membantu-orang-orang-ya-parent {
+    gap: var(--gap-15xl);
+  }
+  .home-2-inner1 {
+    padding-left: var(--padding-9xl);
+    padding-right: var(--padding-9xl);
+    padding-bottom: var(--padding-80xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .kami-membantu-orang {
+    font-size: var(--font-size-10xl);
+  }
+  .gangguan-tidur {
+    font-size: var(--font-size-lgi);
+  }
+  .gangguan-tidur-wrapper {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .bipolar,
+  .kecemasan-umum {
+    font-size: var(--font-size-lgi);
+  }
+  .kecemasan-umum-wrapper {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .kami-membantu-orang-orang-ya-parent {
+    gap: var(--gap-mid);
+  }
+}

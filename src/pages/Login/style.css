@@ -1,11 +1,11 @@
-.bg-icon,
+.bg-icon1,
 .shape {
   position: absolute;
   top: 0;
   width: 100%;
   height: 100%;
 }
-.bg-icon {
+.bg-icon1 {
   left: -1px;
   object-fit: cover;
 }
@@ -52,7 +52,7 @@
   gap: 15px;
   max-width: 100%;
 }
-.alamat-email {
+.alamat-email1 {
   position: relative;
   font-size: 16px;
   line-height: 24px;
@@ -63,7 +63,7 @@
   display: inline-block;
   min-width: 109px;
 }
-.bg {
+.bg4 {
   border: 1px solid #000;
   outline: 0;
   background-color: #fff;
@@ -73,7 +73,6 @@
   border-radius: 12px;
   box-sizing: border-box;
   min-width: 250px;
-  font-size: 30px;
 }
 .input-fields {
   align-self: stretch;
@@ -83,7 +82,7 @@
   justify-content: flex-start;
   gap: 11px;
 }
-.kata-sandi {
+.kata-sandi1 {
   position: relative;
   font-size: 16px;
   line-height: 24px;
@@ -94,7 +93,7 @@
   display: inline-block;
   min-width: 88px;
 }
-.bg1 {
+.bg5 {
   border: 1px solid #000;
   outline: 0;
   background-color: #fff;
@@ -104,7 +103,6 @@
   border-radius: 12px;
   box-sizing: border-box;
   min-width: 250px;
-  font-size: 30px;
 }
 .input-fields1 {
   align-self: stretch;
@@ -169,7 +167,7 @@
   gap: 35px;
   max-width: 100%;
 }
-.button-name {
+.button-name1 {
   width: 55px;
   position: relative;
   font-size: 16px;
@@ -183,21 +181,21 @@
   justify-content: center;
   min-width: 55px;
 }
-.iconoutlinearrow-right {
+.iconoutlinearrow-right1 {
   height: 18px;
   width: 18px;
   position: relative;
   overflow: hidden;
   flex-shrink: 0;
 }
-.icon {
+.icon3 {
   display: none;
   flex-direction: row;
   align-items: center;
   justify-content: center;
 }
 .button-content,
-.buttonprimarywith-icon {
+.buttonprimarywith-icon1 {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -206,7 +204,7 @@
 .button-content {
   gap: 9px;
 }
-.buttonprimarywith-icon {
+.buttonprimarywith-icon1 {
   cursor: pointer;
   border: 0;
   padding: 13.5px 52.5px;
@@ -214,7 +212,7 @@
   border-radius: 9px;
 }
 .belum-punya-akun,
-.daftar {
+.daftar2 {
   position: relative;
   font-size: 14px;
   line-height: 22px;
@@ -222,7 +220,7 @@
   color: #64748b;
   text-align: left;
 }
-.daftar {
+.daftar2 {
   font-size: 13px;
   line-height: 21px;
   font-weight: 500;

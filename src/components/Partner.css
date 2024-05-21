@@ -1,0 +1,177 @@
+.partner-icon,
+.partner-logo-child {
+  position: absolute;
+  top: 0;
+  left: 591px;
+  width: 1638.3px;
+  height: 1641.7px;
+  object-fit: contain;
+  z-index: 1;
+}
+.partner-icon {
+  top: 973px;
+  left: 0;
+  width: 1119px;
+  height: 509px;
+  z-index: 2;
+}
+.mentalkucom,
+.partner-logo {
+  margin: 0 !important;
+  position: absolute;
+}
+.partner-logo {
+  height: 1641.7px;
+  width: 864px;
+  top: -973px;
+  right: 0;
+}
+.mentalkucom {
+  width: 390px;
+  top: 27px;
+  right: 327px;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  z-index: 3;
+}
+.partner-description-child {
+  height: 743px;
+  width: 1369px;
+  position: relative;
+  background-color: #6ec1e4;
+  display: none;
+  max-width: 100%;
+}
+.salah-satu-website {
+  margin: 0;
+  height: 540px;
+  width: 663px;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -0.02em;
+  line-height: 150%;
+  font-weight: 500;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+  z-index: 3;
+}
+.partner-description,
+.partner-details,
+.partner-info {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.partner-description {
+  flex: 1;
+  background-color: #6ec1e4;
+  justify-content: flex-end;
+  padding: 114px 55px 89px;
+  box-sizing: border-box;
+  font-size: 30px;
+  color: #1e1e1e;
+  font-family: Inter;
+}
+.partner-details,
+.partner-info {
+  flex-shrink: 0;
+  justify-content: flex-start;
+  position: relative;
+}
+.partner-details {
+  flex: 1;
+}
+.partner-info {
+  height: 683px;
+  width: 1369px;
+  overflow: hidden;
+}
+.additional-image-child {
+  height: 889px;
+  width: 515px;
+  position: relative;
+  box-shadow: 20px 4px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 50px;
+  background-color: #fff;
+  display: none;
+  max-width: 100%;
+}
+.image-9-icon1 {
+  height: 217.4px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+  z-index: 5;
+}
+.additional-image,
+.partner {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.additional-image {
+  height: 889px;
+  width: 515px;
+  box-shadow: 20px 4px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 50px;
+  background-color: #fff;
+  align-items: flex-start;
+  padding: 307px 7px;
+  box-sizing: border-box;
+  z-index: 4;
+  margin-left: -1304px;
+}
+.partner {
+  align-self: stretch;
+  align-items: flex-end;
+  text-align: left;
+  font-size: 54px;
+  color: #000;
+  font-family: Manrope;
+}
+@media screen and (max-width: 1050px) {
+  .mentalkucom {
+    font-size: 43px;
+  }
+  .salah-satu-website {
+    font-size: 24px;
+    line-height: 36px;
+  }
+  .partner-description {
+    padding-left: 27px;
+    padding-right: 27px;
+    box-sizing: border-box;
+  }
+  .additional-image {
+    padding-bottom: 200px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .partner-description {
+    padding-top: 74px;
+    padding-bottom: 58px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .mentalkucom {
+    font-size: 32px;
+  }
+  .salah-satu-website {
+    font-size: 18px;
+    line-height: 27px;
+  }
+  .additional-image {
+    padding-bottom: 130px;
+    box-sizing: border-box;
+  }
+}

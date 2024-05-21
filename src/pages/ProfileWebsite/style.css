@@ -1,0 +1,233 @@
+.hero-child {
+  width: 1369px;
+  position: relative;
+  background: linear-gradient(270deg, #6ec1e4);
+  display: none;
+  max-width: 100%;
+  z-index: 0;
+}
+.hero-item {
+  width: 1298px;
+  height: 268px;
+  position: absolute;
+  margin: 0 !important;
+  right: -540px;
+  bottom: 0;
+  object-fit: contain;
+  z-index: 1;
+}
+.g8-icon {
+  height: 50px;
+  width: 50px;
+}
+.g8-icon,
+.mindfulcare {
+  position: relative;
+}
+.g8-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 15px;
+}
+.home {
+  font-weight: 600;
+}
+.about,
+.home,
+.page,
+.services {
+  height: 27px;
+  position: relative;
+  display: inline-block;
+}
+.home-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-31xl);
+  max-width: 100%;
+  font-size: var(--body1-light-size);
+  font-family: var(--body1-light);
+}
+.see-detail {
+  align-self: stretch;
+  position: relative;
+}
+.button {
+  height: 60px;
+  border-radius: var(--br-11xl);
+  background-color: var(--color);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-mini) var(--padding-31xl);
+  box-sizing: border-box;
+  white-space: nowrap;
+  font-size: var(--h6-size);
+}
+.frame-parent {
+  width: 1596px;
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: var(--gap-xl);
+  z-index: 2;
+  font-size: var(--h5-size);
+}
+.about-us,
+.lorem-ipsum-dolor {
+  position: relative;
+  display: inline-block;
+}
+.about-us {
+  height: 93px;
+  font-weight: 800;
+}
+.lorem-ipsum-dolor {
+  align-self: stretch;
+  height: 54px;
+  font-size: var(--body1-light-size);
+  font-family: var(--body1-light);
+}
+.about-us-parent {
+  width: 1173px;
+  display: none;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-31xl);
+  max-width: 100%;
+  z-index: 3;
+}
+.hero-inner,
+.title-background {
+  width: 5px;
+  position: relative;
+  background-color: var(--txt);
+}
+.hero-inner {
+  height: 328px;
+  display: none;
+  z-index: 4;
+}
+.title-background {
+  height: 151px;
+  z-index: 3;
+}
+.profil-website1 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 800;
+  font-family: inherit;
+  z-index: 2;
+}
+.profil-website-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 29px 0 0;
+  box-sizing: border-box;
+  max-width: calc(100% - 25px);
+}
+.title-content,
+.title-content-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.title-content {
+  width: 556px;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.title-content-wrapper {
+  width: 804px;
+  justify-content: center;
+}
+.hero {
+  align-self: stretch;
+  background: linear-gradient(270deg, #6ec1e4);
+  flex-direction: column;
+  padding: 19px var(--padding-11xl) var(--padding-47xl);
+  box-sizing: border-box;
+  position: relative;
+  gap: 82px;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--h1-size);
+  color: var(--txt);
+  font-family: var(--h5);
+}
+.about-content-wrapper,
+.hero,
+.profil-website {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.about-content-wrapper {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 54px;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.profil-website {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-aliceblue);
+  overflow: hidden;
+  flex-direction: column;
+  gap: 42.5px;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1050px) {
+  .frame-parent {
+    flex-wrap: wrap;
+  }
+  .about-us,
+  .profil-website1 {
+    font-size: var(--font-size-35xl);
+  }
+}
+@media screen and (max-width: 750px) {
+  .hero {
+    gap: var(--gap-22xl);
+  }
+  .about-content-wrapper {
+    padding-left: var(--padding-8xl);
+    padding-right: var(--padding-8xl);
+    box-sizing: border-box;
+  }
+  .profil-website {
+    gap: 21px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .mindfulcare {
+    font-size: var(--h6-size);
+  }
+  .home-parent {
+    flex-wrap: wrap;
+  }
+  .about-us,
+  .profil-website1 {
+    font-size: var(--font-size-22xl);
+  }
+  .hero {
+    gap: var(--gap-xl);
+    padding-top: var(--padding-xl);
+    padding-bottom: 43px;
+    box-sizing: border-box;
+  }
+}

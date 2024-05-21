@@ -1,0 +1,356 @@
+.doctor-info-child {
+    width: 515px;
+    height: 707px;
+    position: relative;
+    box-shadow: 10px 4px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    background-color: #fff;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    display: none;
+    max-width: 100%;
+  }
+  
+  .image-1-icon {
+    height: 357px;
+    width: 471px;
+    position: absolute;
+    margin: 0 !important;
+    top: -324px;
+    left: 0;
+    border-radius: 15px;
+    object-fit: cover;
+    z-index: 1;
+  }
+  .doctor-names-child {
+    height: 139px;
+    width: 483px;
+    position: relative;
+    background-color: #57b;
+    display: none;
+    max-width: 100%;
+  }
+  .dr-agraini-spkj {
+    margin: 0;
+    flex: 1;
+    position: relative;
+    font-size: inherit;
+    font-weight: 700;
+    font-family: inherit;
+    display: inline-block;
+    max-width: 100%;
+    z-index: 3;
+  }
+  .doctor-image-and-name,
+  .doctor-names {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .doctor-names {
+    flex: 1;
+    background-color: #57bade;
+    padding: 44px 29px 51px 30px;
+    box-sizing: border-box;
+    white-space: nowrap;
+    z-index: 2;
+  }
+  .doctor-image-and-name {
+    align-self: stretch;
+    position: relative;
+  }
+  .doctor-specialty-child {
+    height: 93px;
+    width: 483px;
+    position: relative;
+    background-color: #fff;
+    border-bottom: 1px solid #000;
+    box-sizing: border-box;
+    display: none;
+    max-width: 100%;
+  }
+  .spesialis-kesehatan-mental {
+    margin: 0;
+    flex: 1;
+    position: relative;
+    font-size: inherit;
+    font-weight: 400;
+    font-family: inherit;
+    display: inline-block;
+    max-width: 100%;
+    z-index: 2;
+  }
+  .doctor-details,
+  .doctor-specialty {
+    align-self: stretch;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .doctor-specialty {
+    background-color: #fff;
+    border-bottom: 1px solid #000;
+    box-sizing: border-box;
+    flex-direction: row;
+    padding: 27px 29px 25px 30px;
+    white-space: nowrap;
+    z-index: 1;
+    margin-top: -3px;
+    font-size: 32px;
+    color: #000;
+  }
+  .doctor-details {
+    flex-direction: column;
+  }
+  .senin-dan-selasa {
+    flex: 1;
+    position: relative;
+    display: inline-block;
+    max-width: 100%;
+    z-index: 1;
+  }
+  .doctor-availability,
+  .doctor-info {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .doctor-availability {
+    align-self: stretch;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0 27px 0 34px;
+    max-width: 100%;
+    font-size: 32px;
+    color: #000;
+  }
+  .doctor-info {
+    flex: 1;
+    box-shadow: 10px 4px 10px rgba(0, 0, 0, 0.25);
+    background-color: #fff;
+    border: 1px solid #000;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 340px 14px 32px;
+    gap: 24px;
+    min-width: 335px;
+  }
+  .doctor-info,
+  .doctor-info-item,
+  .image-3-icon {
+    border-radius: 15px;
+    max-width: 100%;
+  }
+  .doctor-info-item {
+    width: 498px;
+    height: 707px;
+    position: relative;
+    box-shadow: 10px 4px 10px rgba(0, 0, 0, 0.25);
+    background-color: #fff;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    display: none;
+  }
+  .image-3-icon {
+    height: 346px;
+    width: calc(100% - 20px);
+    position: absolute;
+    margin: 0 !important;
+    top: -327px;
+    right: 10px;
+    left: 10px;
+    overflow: hidden;
+    object-fit: cover;
+    z-index: 1;
+  }
+  .dr-cinta-yuni,
+  .rectangle-div {
+    position: relative;
+    max-width: 100%;
+  }
+  .rectangle-div {
+    height: 139px;
+    width: 483px;
+    background-color: #57bade;
+    display: none;
+  }
+  .dr-cinta-yuni {
+    margin: 0;
+    flex: 1;
+    font-size: inherit;
+    font-weight: 700;
+    font-family: inherit;
+    display: inline-block;
+    z-index: 3;
+  }
+  .frame-div {
+    flex: 1;
+    background-color: #57bade;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 35px 29px 16px 30px;
+    box-sizing: border-box;
+    max-width: 100%;
+    z-index: 2;
+  }
+  .frame-child1,
+  .image-3-parent {
+    position: relative;
+    max-width: 100%;
+  }
+  .image-3-parent {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .frame-child1 {
+    height: 93px;
+    width: 483px;
+    background-color: #fff;
+    border-bottom: 1px solid #000;
+    box-sizing: border-box;
+    display: none;
+  }
+  .spesialis-kesehatan-mental1 {
+    flex: 1;
+    position: relative;
+    display: inline-block;
+    max-width: 100%;
+    z-index: 4;
+  }
+  .frame-container,
+  .rectangle-parent1 {
+    align-self: stretch;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .rectangle-parent1 {
+    background-color: #fff;
+    border-bottom: 1px solid #000;
+    box-sizing: border-box;
+    flex-direction: row;
+    padding: 27px 29px 25px 30px;
+    white-space: nowrap;
+    z-index: 3;
+    font-size: 32px;
+    color: #000;
+  }
+  .frame-container {
+    flex-direction: column;
+  }
+  .rabu-dan-kamis {
+    flex: 1;
+    position: relative;
+    display: inline-block;
+    max-width: 100%;
+    z-index: 1;
+  }
+  .doctor-info1,
+  .rabu-dan-kamis-0800-1500-wrapper {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: flex-end;
+    max-width: 100%;
+  }
+  .rabu-dan-kamis-0800-1500-wrapper {
+    align-self: stretch;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0 26px 0 33px;
+    font-size: 32px;
+    color: #000;
+  }
+  .doctor-info1 {
+    width: 498px;
+    box-shadow: 10px 4px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    background-color: #fff;
+    border: 1px solid #000;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 340px 7px 32px 6px;
+    gap: 21px;
+    min-width: 498px;
+  }
+  .doctor-card,
+  .doctor-card-inner {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    max-width: 100%;
+  }
+  .doctor-card-inner {
+    width: 1145px;
+    justify-content: flex-start;
+    gap: 132px;
+  }
+  .doctor-card {
+    align-self: stretch;
+    justify-content: center;
+    padding: 0 20px;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 36px;
+    color: #fff;
+    font-family: Inter;
+  }
+  @media screen and (max-width: 1150px) {
+    .doctor-card-inner {
+      gap: 66px;
+    }
+  }
+  @media screen and (max-width: 1050px) {
+    .senin-dan-selasa {
+      font-size: 26px;
+    }
+    .dr-cinta-yuni {
+      font-size: 29px;
+    }
+    .rabu-dan-kamis {
+      font-size: 26px;
+    }
+    .doctor-info1 {
+      flex: 1;
+    }
+    .doctor-card-inner {
+      flex-wrap: wrap;
+    }
+  }
+  @media screen and (max-width: 750px) {
+    .doctor-info,
+    .doctor-info1 {
+      padding-top: 221px;
+      padding-bottom: 21px;
+      box-sizing: border-box;
+    }
+    .doctor-info1 {
+      min-width: 100%;
+    }
+    .doctor-card-inner {
+      gap: 33px;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .senin-dan-selasa {
+      font-size: 19px;
+    }
+    .dr-cinta-yuni {
+      font-size: 22px;
+    }
+    .rabu-dan-kamis {
+      font-size: 19px;
+    }
+    .doctor-card-inner {
+      gap: 16px;
+    }
+  }
+  
