@@ -17,14 +17,6 @@ const App = () => {
       <Routes>
         <Route path="/login" element={<Login />} />
         <Route path="/registration" element={<Registration />} />
-        <Route path="/konsultasi" element={<KonsultasiOnline />}/>
-        <Route path="/penyakit" element={<Penyakit />}/>  
-        <Route path="/penyakit1" element={<Penyakit1/>}/>
-        <Route path="/penyakit2" element={<Penyakit2/>}/>
-        <Route path="/penyakit3" element={<Penyakit3/>}/>
-        <Route path="/penyakit4" element={<Penyakit4/>}/>
-        <Route path="/penyakit5" element={<Penyakit5/>}/>
-        <Route path="/penyakit6" element={<Penyakit6/>}/>
       </Routes>
     </div>
   )
