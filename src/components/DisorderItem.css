@@ -10,7 +10,7 @@
   align-self: stretch;
   flex: 1;
   position: relative;
-  border-radius: var(--br-8xs) var(--br-31xl) var(--br-8xs) var(--br-31xl);
+  border-radius: 2px 16px 2px 16px;
   max-width: 100%;
   overflow: hidden;
   max-height: 100%;
@@ -22,6 +22,8 @@
   font-size: inherit;
   font-weight: 700;
   font-family: inherit;
+  align-items: center;
+  justify-content: center;
 }
 .gangguan-tidur-wrapper,
 .placeholder-icon-parent {
@@ -32,19 +34,21 @@
 .gangguan-tidur-wrapper {
   align-self: stretch;
   flex-direction: row;
-  padding: 0 var(--padding-59xl) 0 var(--padding-58xl);
+  padding: 0 40px 0 30px;
+  align-items: center;
+  justify-content: center;
 }
 .placeholder-icon-parent {
   height: 336px;
   flex-direction: column;
-  gap: var(--gap-lg);
+  gap: 20px;
   max-width: 100%;
 }
 .placeholder-icon1 {
   align-self: stretch;
   flex: 1;
   position: relative;
-  border-radius: var(--br-8xs) var(--br-31xl) var(--br-8xs) var(--br-31xl);
+  border-radius: 4px 60px 4px 60px;
   max-width: 100%;
   overflow: hidden;
   max-height: 100%;
@@ -65,7 +69,9 @@
   flex-direction: row;
   align-items: flex-start;
   justify-content: center;
-  padding: 0 var(--padding-2xl) 0 var(--padding-xl);
+  padding: 0 20px 0 10px;
+  align-items: center;
+  justify-content: center;
 }
 .placeholder-icon-group {
   height: 341px;
@@ -73,14 +79,14 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  gap: var(--gap-4xl);
+  gap: 24px;
   max-width: 100%;
 }
 .rectangle-icon {
   align-self: stretch;
   flex: 1;
   position: relative;
-  border-radius: var(--br-8xs) var(--br-31xl) var(--br-8xs) var(--br-31xl);
+  border-radius: 4px 60px 4px 60px;
   max-width: 100%;
   overflow: hidden;
   max-height: 100%;
@@ -99,7 +105,9 @@
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
-  padding: 0 var(--padding-38xl) 0 var(--padding-39xl);
+  padding:0 20px 0 30px;;
+  align-items: center;
+  justify-content: center;
 }
 .frame-parent7,
 .rectangle-parent4 {
@@ -111,17 +119,17 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: var(--gap-lg);
+  gap: 20px;
 }
 .frame-parent7 {
   align-self: stretch;
   display: grid;
   flex-direction: row;
   align-items: flex-end;
-  gap: var(--gap-20xl);
+  gap: 16px;
   grid-template-columns: repeat(3, minmax(295px, 1fr));
-  font-size: var(--font-size-13xl);
-  font-family: var(--font-inria-serif);
+  font-size: 26px;
+  font-family: 'Inria Serif', serif;
 }
 .frame-section,
 .kami-membantu-orang-orang-ya-parent {
@@ -133,26 +141,26 @@
 .kami-membantu-orang-orang-ya-parent {
   flex: 1;
   flex-direction: column;
-  gap: var(--gap-50xl);
+  gap: 10px;
 }
 .frame-section {
   align-self: stretch;
   flex-direction: row;
-  padding: 0 var(--padding-37xl) var(--padding-133xl);
+  padding: 0 30px 110px;
   box-sizing: border-box;
   text-align: left;
-  font-size: var(--font-size-29xl);
-  color: var(--color-black);
-  font-family: var(--h5);
+  font-size: 58px;
+  color: #000;
+  font-family: "Font Name";
 }
 @media screen and (max-width: 1050px) {
   .kami-membantu-orang {
-    font-size: var(--font-size-19xl);
+    font-size: 38px;
   }
   .bipolar,
   .gangguan-tidur,
   .kecemasan-umum {
-    font-size: var(--font-size-7xl);
+    font-size: 28px;
   }
   .frame-parent7 {
     justify-content: center;
@@ -161,41 +169,42 @@
 }
 @media screen and (max-width: 750px) {
   .frame-parent7 {
-    gap: var(--gap-lgi);
+    gap: 20px;
     grid-template-columns: minmax(295px, 1fr);
   }
   .kami-membantu-orang-orang-ya-parent {
-    gap: var(--gap-15xl);
+    gap: 120px;
   }
   .frame-section {
-    padding-left: var(--padding-9xl);
-    padding-right: var(--padding-9xl);
-    padding-bottom: var(--padding-80xl);
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 640px;
     box-sizing: border-box;
   }
 }
 @media screen and (max-width: 450px) {
   .kami-membantu-orang {
-    font-size: var(--font-size-10xl);
+    font-size: 40px;
   }
   .gangguan-tidur {
-    font-size: var(--font-size-lgi);
+    font-size: 20px;
   }
   .gangguan-tidur-wrapper {
-    padding-left: var(--padding-xl);
-    padding-right: var(--padding-xl);
+    padding-left: 10px;
+    padding-right: 10px;
     box-sizing: border-box;
   }
   .bipolar,
   .kecemasan-umum {
-    font-size: var(--font-size-lgi);
+    font-size: 20px;
   }
   .kecemasan-umum-wrapper {
-    padding-left: var(--padding-xl);
-    padding-right: var(--padding-xl);
+    padding-left: 10px;
+    padding-right: 10px;
     box-sizing: border-box;
   }
   .kami-membantu-orang-orang-ya-parent {
-    gap: var(--gap-mid);
+    gap: 40px;
   }
 }
+

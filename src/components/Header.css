@@ -18,7 +18,10 @@
   }
   .beranda {
     display: inline-block;
-    min-width: 77px;
+    min-width: 79px;
+  }
+  .beranda:hover{
+    color: red;
   }
   .home-link {
     display: flex;
@@ -34,7 +37,10 @@
   }
   .direktori {
     display: inline-block;
-    min-width: 79px;
+    min-width: 77px;
+  }
+  .direktori:hover{
+    color: red;
   }
   .healthiconsv {
     width: 13px;
@@ -60,6 +66,9 @@
   display: inline-block;
   min-width: 77px;
   }
+  .konsultasi-online:hover{
+    color: red;
+  }
   .healthiconsv1,
   .informasi,
   .konsultasi-online {
@@ -69,6 +78,9 @@
   .informasi {
     display: inline-block;
     min-width: 86px;
+  }
+  .informasi:hover{
+    color: red;
   }
   .healthiconsv1 {
     width: 13px;
@@ -111,6 +123,7 @@
     padding: 26px 0 0;
     box-sizing: border-box;
   }
+
   .login-button-child {
     height: 40px;
     width: 90px;

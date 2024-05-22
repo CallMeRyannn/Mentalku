@@ -61,6 +61,7 @@
   border-radius: 12px;
   box-sizing: border-box;
   min-width: 250px;
+  font-size: 20px;
 }
 .email,
 .email-wrapper {
@@ -104,6 +105,7 @@
   border-radius: 12px;
   box-sizing: border-box;
   min-width: 250px;
+  font-size: 20px;
 }
 .alamat-email-parent {
   align-self: stretch;
@@ -139,6 +141,7 @@
   border-radius: 12px;
   box-sizing: border-box;
   min-width: 250px;
+  font-size: 20px;
 }
 .password {
   display: flex;
@@ -166,6 +169,7 @@
   border-radius: 12px;
   box-sizing: border-box;
   min-width: 250px;
+  font-size: 20px;
 }
 .input,
 .input-wrapper,
@@ -236,12 +240,15 @@
   background-color: #6ec1e4;
   border-radius: 9px;
 }
+.buttonprimarywith-icon:hover {
+  background-color: #4682b4;
+}
 .sudah-punya-akun {
   position: relative;
   font-size: 14px;
   line-height: 22px;
   font-family: Poppins;
-  color: #64748b;
+  color: #4682b4;
   text-align: left;
 }
 .buttonprimarywith-icon-parent,

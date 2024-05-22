@@ -73,6 +73,7 @@
   border-radius: 12px;
   box-sizing: border-box;
   min-width: 250px;
+  font-size: 20px;
 }
 .input-fields {
   align-self: stretch;
@@ -103,6 +104,7 @@
   border-radius: 12px;
   box-sizing: border-box;
   min-width: 250px;
+  font-size: 20px;
 }
 .input-fields1 {
   align-self: stretch;
@@ -168,19 +170,15 @@
   max-width: 100%;
 }
 .button-name1 {
-  width: 55px;
-  position: relative;
-  font-size: 16px;
-  letter-spacing: -0.2px;
-  line-height: 28px;
-  font-family: Poppins;
-  color: #fff;
-  text-align: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  min-width: 55px;
-}
+    position: relative;
+    font-size: 24px;
+    display: inline-block;
+    font-family: 'Inter', sans-serif;
+    color: #fff;
+    text-align: left;
+    min-width: 63px;
+    z-index: 2;
+  }
 .iconoutlinearrow-right1 {
   height: 18px;
   width: 18px;
@@ -211,6 +209,10 @@
   background-color: #6ec1e4;
   border-radius: 9px;
 }
+.buttonprimarywith-icon1:hover {
+  background-color: #4682b4;
+}
+
 .belum-punya-akun,
 .daftar2 {
   position: relative;

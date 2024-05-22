@@ -14,16 +14,10 @@ const ResetPw = () => {
             Masukkan alamat email yang terkait dengan akun anda untuk
             mendapatkan kode.
           </div>
-          <div className="email-input-field-wrapper">
-            <div className="email-input-field">
-              <div className="email-input-field-child" />
-              <input
-                className="masukkan-alamat-email1"
-                placeholder="Masukkan alamat email"
-                type="text"
-              />
-            </div>
-          </div>
+          <div className="input-fields">
+                <div className="alamat-email1">Masukkan Alamat Email</div>
+                <input className="bg4" type="text" />
+              </div>
           <div className="buttons">
             <button className="submit-button">
               <div className="submit-button-child" />

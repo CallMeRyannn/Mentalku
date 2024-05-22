@@ -7,7 +7,7 @@ const Reasoning = () => {
         <div className="flexibility">
           <div className="flexibility-container">
             <div className="flexibility-header">
-              <b className="mengapa">Mengapa?</b>
+              <b className="mengapa"></b>
             </div>
             <h1 className="mengapa-konsultasi-kesehatan">
               Mengapa Konsultasi Kesehatan Mental Kami adalah Pilihan Terbaik
