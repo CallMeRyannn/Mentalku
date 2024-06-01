@@ -1,7 +1,7 @@
-import Navbar from "./Navbar";
-import Banner from "./Banner";
-import MentalDisorders from "./MentalDisorders";
-import Footer from "./Footer";
+import Navbar from "../../component2/Navbar";
+import Banner from "../../component2/Banner";
+import MentalDisorders from "../../component2/MentalDisorders";
+import Footer from "../../component2/Footer";
 import "./style.css";
 
 const DirektoriPenyakit = () => {
