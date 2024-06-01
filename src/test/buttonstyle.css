@@ -1,0 +1,25 @@
+.button {
+    all: unset;
+    align-items: flex-start;
+    background-color: var(--x-2);
+    border-radius: 30px;
+    box-sizing: border-box;
+    display: inline-flex;
+    gap: 10px;
+    padding: 15px 50px;
+    position: relative;
+  }
+  
+  .button .see-detail {
+    color: var(--txt);
+    font-family: var(--h6-font-family);
+    font-size: var(--h6-font-size);
+    font-style: var(--h6-font-style);
+    font-weight: var(--h6-font-weight);
+    letter-spacing: var(--h6-letter-spacing);
+    line-height: var(--h6-line-height);
+    margin-top: -1px;
+    position: relative;
+    width: fit-content;
+  }
+  
